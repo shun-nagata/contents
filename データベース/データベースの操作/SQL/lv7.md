@@ -53,7 +53,7 @@ SELECT 中間テスト.学生コード FROM 中間テスト<br>
 
 である。
 
-こたえ　[a] LEFT OUTER [b] JOIN [c] 学生コード [d] 学生コード [e] 得点　[f] IS
+答え　[a] LEFT OUTER [b] JOIN [c] 学生コード [d] 学生コード [e] 得点　[f] IS
 
 ## Q2
 
@@ -94,7 +94,7 @@ SELECT 中間テスト.学生コード FROM 中間テスト<br>
 
 である。
 
-こたえ　[a] RIGHT OUTER [b] JOIN [c] 学生コード [d] 学生コード [e] 得点 [f] IS
+答え　[a] RIGHT OUTER [b] JOIN [c] 学生コード [d] 学生コード [e] 得点 [f] IS
 
 ## Q3（自由記述）
 
@@ -462,7 +462,7 @@ SELECT SUM(月末在庫数) AS 出荷商品在庫合計
 　　WHERE C2.資格 = 'AP'
 
 エ　ON C1.社員コード = C2.社員コード<br>
-　　　　AND C1.資格 = 'FE' AND C2.資格 = 'AP'<br>
+　　　　WHERE C1.資格 = 'FE' AND C2.資格 = 'AP'<br>
 
 
 ### ヒント1
