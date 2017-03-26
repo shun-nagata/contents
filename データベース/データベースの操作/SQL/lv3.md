@@ -77,7 +77,7 @@ SQLは
 
 となる。
 
-答え [1] INSERT　[2] INTO [3] VALUES
+答え [1] INSERT　[2] INTO [3] VALUES [4] 中間テスト
 
 
 ## Q3
