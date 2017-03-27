@@ -108,7 +108,7 @@ UPDATE は，データ行を更新する。
 
 DELETE は，データ行を削除する。
 
-答え　UPDATE
+答え　DELETE
 
 ## Q6
 
