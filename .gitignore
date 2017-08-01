@@ -1,6 +1,32 @@
-### https://raw.github.com/github/gitignore/87bd07e50dd98527131a1f310b4e4915a5364cd7/Global/osx.gitignore
+### https://raw.github.com/github/gitignore/8edb8a95c4c4b3dce71a378aaaf89275510b9cef/Global/Dropbox.gitignore
 
-.DS_Store
+# Dropbox settings and caches
+.dropbox
+.dropbox.attr
+.dropbox.cache
+
+
+### https://raw.github.com/github/gitignore/8edb8a95c4c4b3dce71a378aaaf89275510b9cef/Global/Linux.gitignore
+
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+
+### https://raw.github.com/github/gitignore/8edb8a95c4c4b3dce71a378aaaf89275510b9cef/Global/macOS.gitignore
+
+# General
+*.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -17,6 +43,7 @@ Icon
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
 # Directories potentially created on remote AFP share
 .AppleDB
@@ -26,25 +53,35 @@ Temporary Items
 .apdisk
 
 
-### https://raw.github.com/github/gitignore/87bd07e50dd98527131a1f310b4e4915a5364cd7/Global/linux.gitignore
+### https://raw.github.com/github/gitignore/8edb8a95c4c4b3dce71a378aaaf89275510b9cef/Global/MicrosoftOffice.gitignore
 
-*~
+*.tmp
 
-# temporary files which can be created if a process still has a handle open of a deleted file
-.fuse_hidden*
+# Word temporary
+~$*.doc*
 
-# KDE directory preferences
-.directory
+# Excel temporary
+~$*.xls*
 
-# Linux trash folder which might appear on any partition or disk
-.Trash-*
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*
 
 
-### https://raw.github.com/github/gitignore/87bd07e50dd98527131a1f310b4e4915a5364cd7/Global/windows.gitignore
+### https://raw.github.com/github/gitignore/8edb8a95c4c4b3dce71a378aaaf89275510b9cef/Global/Windows.gitignore
 
-# Windows image file caches
+# Windows thumbnail cache files
 Thumbs.db
 ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
 
 # Folder config file
 Desktop.ini
@@ -62,26 +99,183 @@ $RECYCLE.BIN/
 *.lnk
 
 
-### https://raw.github.com/github/gitignore/87bd07e50dd98527131a1f310b4e4915a5364cd7/Global/LibreOffice.gitignore
+### https://raw.github.com/github/gitignore/8edb8a95c4c4b3dce71a378aaaf89275510b9cef/Java.gitignore
 
-# LibreOffice locks
-.~lock.*#
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
 
 
-### https://raw.github.com/github/gitignore/87bd07e50dd98527131a1f310b4e4915a5364cd7/Global/MicrosoftOffice.gitignore
+### https://raw.github.com/github/gitignore/8edb8a95c4c4b3dce71a378aaaf89275510b9cef/Maven.gitignore
 
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
+
+
+### https://raw.github.com/github/gitignore/8edb8a95c4c4b3dce71a378aaaf89275510b9cef/Global/Eclipse.gitignore
+
+
+.metadata
+bin/
+tmp/
 *.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
 
-# Word temporary
-~$*.doc*
+# External tool builders
+.externalToolBuilders/
 
-# Excel temporary
-~$*.xls*
+# Locally stored "Eclipse launch configurations"
+*.launch
 
-# Excel Backup File
-*.xlk
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
 
-# PowerPoint temporary
-~$*.ppt*
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
+
+
+### https://raw.github.com/github/gitignore/8edb8a95c4c4b3dce71a378aaaf89275510b9cef/Global/JDeveloper.gitignore
+
+# default application storage directory used by the IDE Performance Cache feature
+.data/
+
+# used for ADF styles caching
+temp/
+
+# default output directories
+classes/
+deploy/
+javadoc/
+
+# lock file, a part of Oracle Credential Store Framework
+cwallet.sso.lck
+
+### https://raw.github.com/github/gitignore/8edb8a95c4c4b3dce71a378aaaf89275510b9cef/Global/JetBrains.gitignore
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+
+# Sensitive or high-churn files:
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# Gradle:
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# CMake
+cmake-build-debug/
+
+# Mongo Explorer plugin:
+.idea/**/mongoSettings.xml
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+
+### https://raw.github.com/github/gitignore/8edb8a95c4c4b3dce71a378aaaf89275510b9cef/Global/SVN.gitignore
+
+.svn/
+
+
+### https://raw.github.com/github/gitignore/8edb8a95c4c4b3dce71a378aaaf89275510b9cef/Global/NetBeans.gitignore
+
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
 
 
