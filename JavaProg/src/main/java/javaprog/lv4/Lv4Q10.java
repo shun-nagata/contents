@@ -10,7 +10,7 @@ public class Lv4Q10 {
 		int a = 2;
 		float b = 3.0f;
 		int c = 5;
-		String d = "答え";
+		String d = "duke";
 
 		String ans = d + a + b * c;
 

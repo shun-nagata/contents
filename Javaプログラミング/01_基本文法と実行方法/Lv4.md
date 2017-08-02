@@ -412,9 +412,9 @@ public static void main(String[] args) {
 
 この設問の場合は
 
-"答え" + 2 + 3.0 * 5
-→"答え2" + 15.0
-→"答え215.0"
+"duke" + 2 + 3.0 * 5
+→"duke2" + 15.0
+→"duke215.0"
 
 と計算されるため、結果は文字列型になる。
 
@@ -426,6 +426,6 @@ public static void main(String[] args) {
 4. String
 5. String
 6. ans
-7. 答え215.0
+7. p215.0
 
 
