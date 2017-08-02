@@ -6,4 +6,5 @@ public class Lv3Q01 {
 		int ans = 8;
 		System.out.println(ans);
 	}
+
 }
