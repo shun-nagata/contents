@@ -1,7 +1,7 @@
 package javaprog.lv4;
 
 /**
- * a1*a2の答えを表示する
+ * ｘ-yの答えを表示する
  */
 public class Lv4Q03 {
 

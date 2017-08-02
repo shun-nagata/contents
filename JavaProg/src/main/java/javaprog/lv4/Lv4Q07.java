@@ -1,5 +1,8 @@
 package javaprog.lv4;
 
+/**
+ * x!=yの答えを表示する
+ */
 public class Lv4Q07 {
 
 	public static void main(String[] args) {

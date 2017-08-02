@@ -1,5 +1,8 @@
 package javaprog.lv4;
 
+/**
+ * x/yの値を表示する
+ */
 public class Lv4Q08 {
 
 	public static void main(String[] args) {
