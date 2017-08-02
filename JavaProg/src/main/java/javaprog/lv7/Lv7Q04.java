@@ -2,11 +2,15 @@ package javaprog.lv7;
 
 import java.util.Scanner;
 
-public class InputAndIncrement {
+/**
+ * 整数を入力し続け、それまでの最大値を表示する（ただし負の値を入れると終了する）
+ */
+public class Lv7Q04 {
 
 	public static void main(String[] args) {
+
 		Scanner keyInput = new Scanner(System.in);
-		int sum = 0;
+		int max = 0;
 
 		while (true) {
 			System.out.print("入力:");
@@ -14,11 +18,12 @@ public class InputAndIncrement {
 			if (x < 0) {
 				break;
 			}
-			sum = sum + x;
-			System.out.println("これまでの合計:" + sum);
+			if (max < x) {
+				max = x;
+			}
+			System.out.println("これまでの最大値:" + max);
 		}
 
-		keyInput.close();
 	}
 
 }

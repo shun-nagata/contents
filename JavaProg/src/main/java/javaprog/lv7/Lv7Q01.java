@@ -2,11 +2,15 @@ package javaprog.lv7;
 
 import java.util.Scanner;
 
-public class InputAndSum {
+/**
+ * 整数を5回入力し、その合計値を求める
+ */
+public class Lv7Q01 {
 
 	public static void main(String[] args) {
 		int size = 5;
 		int[] x = new int[size];
+
 		Scanner keyInput = new Scanner(System.in);
 
 		for (int i = 0; i < size; i++) {
@@ -16,11 +20,12 @@ public class InputAndSum {
 
 		keyInput.close();
 
-		int sum = 0;
+		int total = 0;
 		for (int xi : x) {
-			sum = sum + xi;
+			total = total + xi;
 		}
-		System.out.println("合計は" + sum);
+
+		System.out.println("合計は" + total);
 	}
 
 }

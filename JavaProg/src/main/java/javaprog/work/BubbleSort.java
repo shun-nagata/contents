@@ -1,8 +1,8 @@
-package javaprog.ex;
+package javaprog.work;
 
 import java.util.Scanner;
 
-public class Sort {
+public class BubbleSort {
 
 	public static void main(String[] args) {
 		int size = 5;
