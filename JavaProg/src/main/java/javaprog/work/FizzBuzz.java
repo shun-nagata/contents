@@ -6,7 +6,7 @@ import java.util.Scanner;
  * 1~50の数字の中で、3の倍数の時にFizz, 5の倍数の時はBuzz、
  * 3の倍数であり5の倍数でもあるときはFizzBuzzと表示する
  */
-public class FizzBuzz {
+class FizzBuzz {
 
 	public static void main(String[] args) {
 		Scanner keyInput = new Scanner(System.in);

@@ -11,4 +11,9 @@ public class AppTest {
 		assertTrue(true);
 	}
 
+	@Test
+	public void hoge() {
+		System.out.println("7" + 5 * (3 + 2.0));
+	}
+
 }

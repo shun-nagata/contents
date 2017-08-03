@@ -3,7 +3,7 @@ package javaprog.work;
 /**
  * 1÷1, 1÷2 ... 1÷9, 2÷1, 2÷2, ... 9÷9の計算をする
  */
-public class NestedFor {
+class NestedFor {
 
 	public static void main(String[] args) {
 		for (float x = 1; x <= 9; x++) {

@@ -2,7 +2,7 @@ package javaprog.work;
 
 import java.util.Scanner;
 
-public class Diamond {
+class Diamond {
 
 	public static void main(String[] args) {
 		Scanner keyInput = new Scanner(System.in);

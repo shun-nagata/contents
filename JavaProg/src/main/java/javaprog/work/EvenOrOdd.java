@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 入力された文字が偶数か奇数かを表示する
  */
-public class EvenOrOdd {
+class EvenOrOdd {
 
 	public static void main(String[] args) {
 		Scanner keyInput = new Scanner(System.in);
