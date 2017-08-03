@@ -11,8 +11,8 @@ public class Lv6Q07 {
 
 		for (int xi : x) {
 			for (int yj : y) {
-				int multi = xi * yj;
-				System.out.print(multi + ",");
+				int ans = xi * yj;
+				System.out.print(ans + ", ");
 			}
 			System.out.println();
 		}

@@ -3,26 +3,24 @@ package javaprog.lv6;
 import java.util.Scanner;
 
 /**
- * 少数 x と y を入力し、x÷1~ｘ÷y を求める
+ * 整数 x と y を入力し、縦をx、横をyとして*でできた四角形を表示する
  */
 public class Lv6Q10 {
 
 	public static void main(String[] args) {
 		Scanner keyInput = new Scanner(System.in);
-
 		System.out.print("xの値は：");
-		float x = keyInput.nextFloat();
-
+		int x = keyInput.nextInt();
 		System.out.print("yの値は：");
-		float y = keyInput.nextFloat();
-
+		int y = keyInput.nextInt();
 		keyInput.close();
 
-		for (int i = 1; i <= y; i++) {
-			float ans = x / i;
-			System.out.println(x + "÷" + i + "は：" + ans);
+		for (int xi = 0; xi < x; xi++) {
+			for (int yi = 0; yi < y; yi++) {
+				System.out.print("*");
+			}
+			System.out.println();
 		}
-
 	}
 
 }

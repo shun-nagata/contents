@@ -22,7 +22,6 @@ public class Lv6Q09 {
 			long ans = x * i;
 			System.out.println(x + "×" + i + "は：" + ans);
 		}
-
 	}
 
 }

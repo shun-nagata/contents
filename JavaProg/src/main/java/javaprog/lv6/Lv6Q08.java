@@ -16,9 +16,8 @@ public class Lv6Q08 {
 		if (x > 10) {
 			System.out.println(x + "は10より大きい");
 		} else {
-			System.out.println(x + "は10より小さい");
+			System.out.println(x + "は10以下");
 		}
-
 	}
 
 }

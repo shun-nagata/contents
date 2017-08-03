@@ -13,8 +13,7 @@ public class Lv6Q01 {
 			sum = sum + xi;
 		}
 
-		float fsum = (float) sum;
-		float ave = fsum / x.length;
+		float ave = (float) sum / x.length;
 
 		System.out.println(ave);
 	}

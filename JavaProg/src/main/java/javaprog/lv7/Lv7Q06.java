@@ -16,11 +16,11 @@ public class Lv7Q06 {
 
 		for (int i = 0; i < size; i++) {
 			System.out.print(i + "番目:");
-			int inputed = keyInput.nextInt();
-			if (inputed % 2 == 0) {
-				even[i] = inputed;
+			int inputted = keyInput.nextInt();
+			if (inputted % 2 == 0) {
+				even[i] = inputted;
 			} else {
-				odd[i] = inputed;
+				odd[i] = inputted;
 			}
 
 		}
