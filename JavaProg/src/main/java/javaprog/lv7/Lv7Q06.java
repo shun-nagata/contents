@@ -39,7 +39,6 @@ public class Lv7Q06 {
 				System.out.print(oddi + ",");
 			}
 		}
-
 	}
 
 }

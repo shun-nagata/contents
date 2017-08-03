@@ -3,23 +3,41 @@ package javaprog.lv7;
 import java.util.Scanner;
 
 /**
- * 整数 max を入力し、最大幅を底辺とした逆三角形を * で描く
+ * 入力された成績を表示する
  */
 public class Lv7Q09 {
 
 	public static void main(String[] args) {
 		Scanner keyInput = new Scanner(System.in);
-		System.out.print("最大幅：");
-		int max = keyInput.nextInt();
-		keyInput.close();
 
-		for (int xi = 0; xi < max; xi++) {
-			int cursor = max - xi;
-			for (int ci = 0; ci < cursor; ci++) {
-				System.out.print("*");
+		while (true) {
+			System.out.print("得点：");
+			int x = keyInput.nextInt();
+			if (x < 0) {
+				System.out.println("終了します");
+				break;
 			}
-			System.out.println();
+			if(x > 90) {
+				System.out.println("秀");
+				continue;
+			}
+			if(x > 80) {
+				System.out.println("優");
+				continue;
+			}
+			if(x > 70) {
+				System.out.println("良");
+				continue;
+			}
+			if(x > 60) {
+				System.out.println("可");
+				continue;
+			}
+			System.out.println("不可");
 		}
+
+		keyInput.close();
 	}
+
 
 }

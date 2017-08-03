@@ -17,12 +17,11 @@ public class Lv7Q04 {
 			if (x < 0) {
 				break;
 			}
-			if (max < x) {
+			if (max == 0 || max < x) {
 				max = x;
 			}
 			System.out.println("これまでの最大値:" + max);
 		}
-
 	}
 
 }

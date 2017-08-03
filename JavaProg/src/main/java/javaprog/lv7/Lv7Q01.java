@@ -8,12 +8,12 @@ import java.util.Scanner;
 public class Lv7Q01 {
 
 	public static void main(String[] args) {
-		int size = 5;
-		int[] x = new int[size];
+		int counter = 5;
+		int[] x = new int[counter];
 
 		Scanner keyInput = new Scanner(System.in);
 
-		for (int i = 0; i < size; i++) {
+		for (int i = 0; i < counter; i++) {
 			System.out.print(i + "番目:");
 			x[i] = keyInput.nextInt();
 		}

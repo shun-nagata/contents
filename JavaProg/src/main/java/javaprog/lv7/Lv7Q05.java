@@ -8,22 +8,20 @@ import java.util.Scanner;
 public class Lv7Q05 {
 
 	public static void main(String[] args) {
-
 		Scanner keyInput = new Scanner(System.in);
 		int min = 0;
 
 		while (true) {
-			System.out.print("入力（負の値をいれるまで反復）:");
+			System.out.print("入力:");
 			int x = keyInput.nextInt();
 			if (x < 0) {
 				break;
 			}
-			if (min > x) {
+			if (min == 0 || min > x) {
 				min = x;
 			}
 			System.out.println("これまでの最小値:" + min);
 		}
-
 	}
 
 }

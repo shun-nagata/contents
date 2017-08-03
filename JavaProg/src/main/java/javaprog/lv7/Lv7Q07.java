@@ -1,28 +1,25 @@
 package javaprog.lv7;
 
+import java.util.Scanner;
+
 /**
- * 1~50の数字の中で、3の倍数の時にFizz, 5の倍数の時はBuzz、
- * 3の倍数であり5の倍数でもあるときはFizzBuzzと表示する
- * →数を数えるプログラムに修正。
+ * 整数 max を入力し、最大幅を底辺とした三角形を * で描く
  */
 public class Lv7Q07 {
 
 	public static void main(String[] args) {
-		int n = 50;
-		String message = "";
+		Scanner keyInput = new Scanner(System.in);
+		System.out.print("最大幅：");
+		int max = keyInput.nextInt();
+		keyInput.close();
 
-		for (int i = 1; i <= n; i++) {
-			if (i % 3 == 0 && i % 5 == 0) {
-				message = "FizzBuzz";
-			} else if (i % 3 == 0) {
-				message = "Fizz";
-			} else if (i % 5 == 0) {
-				message = "Buzz";
-			} else {
-				message = "" + i;
+		for (int xi = 0; xi < max; xi++) {
+			int cursor = xi + 1;
+			for (int ci = 0; ci < cursor; ci++) {
+				System.out.print("*");
 			}
-			System.out.println(message);
+			System.out.println();
 		}
 	}
-
+	
 }
