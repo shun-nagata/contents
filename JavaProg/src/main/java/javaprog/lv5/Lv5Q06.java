@@ -1,18 +1,20 @@
 package javaprog.lv5;
 
 /**
- * xが奇数であれば○を表示する
+ * x が80以上であれば良、60以上であれば可、それ以外は不可と表示する
  */
 public class Lv5Q06 {
 
 	public static void main(String[] args) {
-		int x = 5;
+		int x = 70;
 
-		if (x % 2 != 0) {
-			System.out.println("○");
-		} else {
-			System.out.println("×");
+		if (x >= 80) {
+			System.out.println("良");
+		} else if(x >= 60) {
+			System.out.println("可");
+   	} else {
+			System.out.println("不可");
 		}
-
 	}
+
 }

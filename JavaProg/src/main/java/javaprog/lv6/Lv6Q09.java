@@ -16,6 +16,8 @@ public class Lv6Q09 {
 		System.out.print("yの値は：");
 		int y = keyInput.nextInt();
 
+		keyInput.close();
+
 		for (int i = 1; i <= y; i++) {
 			long ans = x * i;
 			System.out.println(x + "×" + i + "は：" + ans);

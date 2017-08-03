@@ -8,7 +8,6 @@ import java.util.Scanner;
 public class Lv7Q04 {
 
 	public static void main(String[] args) {
-
 		Scanner keyInput = new Scanner(System.in);
 		int max = 0;
 

@@ -6,7 +6,6 @@ package javaprog.lv5;
 public class Lv5Q08 {
 
 	public static void main(String[] args) {
-
 		int x = 10;
 		int y = 6;
 
@@ -15,6 +14,6 @@ public class Lv5Q08 {
 		} else {
 			System.out.println("×");
 		}
-
 	}
+
 }

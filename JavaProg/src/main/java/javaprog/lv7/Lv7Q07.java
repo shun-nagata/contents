@@ -8,7 +8,6 @@ import java.util.Scanner;
 public class Lv7Q07 {
 
 	public static void main(String[] args) {
-
 		Scanner keyInput = new Scanner(System.in);
 		System.out.print("xの値は：");
 		int x = keyInput.nextInt();
@@ -22,6 +21,6 @@ public class Lv7Q07 {
 			}
 			System.out.println();
 		}
-
 	}
+
 }
