@@ -2,9 +2,9 @@
 
 ----
 
-**教材制作者へ**
+### 教材制作者へ
 
-特に指示の無い場合は入力問題とする。
+特に指示の無い場合は**入力問題**とする。
 
 ----
 
@@ -12,9 +12,9 @@
 
 32ビットの整数 8 を変数に格納し、この変数の値を標準出力に表示するプログラムになるよう、空欄を埋めなさい。
 
-```java
+```
 public static void main(String[] args) {
-	[ 1 ] ans = [  2 ];
+	[ 1 ] ans = [ 2 ];
 	System.out.println([ 3 ]);
 }
 ```
@@ -26,11 +26,11 @@ public static void main(String[] args) {
 
 ### ヒント1
 
-32ビット整数を用いるための型は `int` である。
+32ビット整数を用いるための型は int である。
 
 ### ヒント2
 
-標準出力に値を表示する命令は `System.out.print(値)` もしくは `System.out.println(値)`である。
+標準出力に値を表示する命令は System.out.print(値) もしくは System.out.println(値) である。
 
 ### ヒント3
 
@@ -45,7 +45,7 @@ public static void main(String[] args) {
 
 64ビットの整数 3000000000L を変数に格納し、この変数の値を標準出力に表示するプログラムになるよう、空欄を埋めなさい。
 
-```java
+```
 public static void main(String[] args) {
 	[ 1 ] ans = [ 2 ];
 	System.out.println([ 3 ]);
@@ -65,7 +65,7 @@ public static void main(String[] args) {
 
 ### ヒント2
 
-標準出力に値を表示する命令は `System.out.print(値)` もしくは `System.out.println(値)`である。
+標準出力に値を表示する命令は System.out.print(値) もしくは System.out.println(値) である。
 
 ### ヒント3
 
@@ -78,9 +78,9 @@ public static void main(String[] args) {
 
 ## Q3
 
-32ビット浮動小数点の少数 12.11F を変数に格納し、この変数の値を標準出力に表示するプログラムになるよう、空欄を埋めなさい。
+32ビット浮動小数点の小数 12.11F を変数に格納し、この変数の値を標準出力に表示するプログラムになるよう、空欄を埋めなさい。
 
-```java
+```
 public static void main(String[] args) {
 	[ 1 ] ans = [ 2 ];
 	System.out.println([ 3 ]);
@@ -100,7 +100,7 @@ public static void main(String[] args) {
 
 ### ヒント2
 
-標準出力に値を表示する命令は `System.out.print(値)` もしくは `System.out.println(値)` である。
+標準出力に値を表示する命令は System.out.print(値) もしくは System.out.println(値) である。
 
 ### ヒント3
 
@@ -112,9 +112,9 @@ public static void main(String[] args) {
 
 ## Q4
 
-64ビット浮動小数点の少数 34.82D を変数に格納し、この変数の値を標準出力に表示するプログラムになるよう、空欄を埋めなさい。
+64ビット浮動小数点の小数 34.82D を変数に格納し、この変数の値を標準出力に表示するプログラムになるよう、空欄を埋めなさい。
 
-```java
+```
 public static void main(String[] args) {
 	[ 1 ] ans = [ 2 ];
 	System.out.println([ 3 ]);
@@ -128,13 +128,13 @@ public static void main(String[] args) {
 
 ### ヒント1
 
-64ビット浮動小数点を用いるための型は `double` である。
+64ビット浮動小数点を用いるための型は double である。
 
 64ビット整数の値には、末尾にD（もしくはd）をつける。
 
 ### ヒント2
 
-標準出力に値を表示する命令は `System.out.print(値)` もしくは `System.out.println(値)` である。
+標準出力に値を表示する命令は System.out.print(値) もしくは System.out.println(値) である。
 
 ### ヒント3
 
@@ -150,7 +150,7 @@ public static void main(String[] args) {
 
 また、`A` がコード値 65 だとした場合、実行結果は何になるか。あわせて答えなさい。
 
-```java
+```
 public static void main(String[] args) {
 	[ 1 ] ans = [ 2 ];
 	System.out.println([ 3 ]);
@@ -164,12 +164,12 @@ public static void main(String[] args) {
 
 ### ヒント1
 
-文字を用いるための型は `char` である。
+文字を用いるための型は char である。
 
 
 ### ヒント2
 
-標準出力に値を表示する命令は `System.out.print(値)` もしくは `System.out.println(値)`である。
+標準出力に値を表示する命令は System.out.print(値) もしくは System.out.println(値)である。
 
 ### ヒント3
 
@@ -197,7 +197,7 @@ public static void main(String[] args) {
 
 文字列 Hello Duke! を変数に格納し、この変数の値を標準出力に表示するプログラムになるよう、空欄を埋めなさい。
 
-```java
+```
 public static void main(String[] args) {
 	[ 1 ] ans = [ 2 ];
 	System.out.println([ 3 ]);
@@ -211,13 +211,13 @@ Hello Duke!
 
 ### ヒント1
 
-文字列を用いるための型は `String` である。
+文字列を用いるための型は String である。
 
 文字列の値は、ダブルコーテーション（`""`）でくくる。
 
 ### ヒント2
 
-標準出力に値を表示する命令は `System.out.print(値)` もしくは `System.out.println(値)` である。
+標準出力に値を表示する命令は System.out.print(値) もしくは System.out.println(値) である。
 
 ### ヒント3
 
@@ -232,7 +232,7 @@ Hello Duke!
 
 32ビット整数 128 を変数xに格納し、これを32ビット浮動小数点の変数yに変換し格納してから、yを標準出力に表示するプログラムになるよう、空欄を埋めなさい。
 
-```java
+```
 public static void main(String[] args) {
 	[ 1 ] x = 128;
 	[ 2 ] y = ([ 3 ]) x;
@@ -247,16 +247,19 @@ public static void main(String[] args) {
 
 ### ヒント1
 
-32ビット整数を用いるための型は `int`、32ビット浮動小数点を用いるための型は `float` である。
+32ビット整数を用いるための型は int 、32ビット浮動小数点を用いるための型は float である。
 
 ### ヒント2
 
-標準出力に値を表示する命令は `System.out.print(値)` もしくは `System.out.println(値)`である。
+標準出力に値を表示する命令は System.out.print(値) もしくは System.out.println(値)である。
 
 ### ヒント3
 
-型の変換を行うときには、キャストを行う。
-キャストは、`(変換後の型) 変換前の型の変数` という文法になる。
+型の変換を行うときには、キャストを行う。キャストは、
+
+(変換後の型) 変換前の型の変数 
+
+という文法になる。
 
 答え
 
@@ -270,7 +273,7 @@ public static void main(String[] args) {
 
 64ビット整数 128L を変数xに格納し、これを64ビット浮動小数点の変数yに変換し格納してから、yを標準出力に表示するプログラムになるよう、空欄を埋めなさい。
 
-```java
+```
 public static void main(String[] args) {
 	[ 1 ] x = 128L;
 	[ 2 ] y = ([ 3 ]) x;
@@ -285,16 +288,19 @@ public static void main(String[] args) {
 
 ### ヒント1
 
-32ビット整数を用いるための型は `long`、32ビット浮動小数点を用いるための型は `double` である。
+32ビット整数を用いるための型は long 、32ビット浮動小数点を用いるための型は double である。
 
 ### ヒント2
 
-標準出力に値を表示する命令は `System.out.print(値)` もしくは `System.out.println(値)` である。
+標準出力に値を表示する命令は System.out.print(値) もしくは System.out.println(値) である。
 
 ### ヒント3
 
-型の変換を行うときには、キャストを行う。
-キャストは、`(変換後の型) 変換前の型の変数` という文法になる。
+型の変換を行うときには、キャストを行う。キャストは、
+
+(変換後の型) 変換前の型の変数
+
+という文法になる。
 
 答え
 
@@ -308,7 +314,7 @@ public static void main(String[] args) {
 
 論理型の変数 x に真, y に 偽 を格納し、それぞれの変数を標準出力に表示するプログラムになるよう、空欄を埋めなさい。
 
-```java
+```
 public static void main(String[] args) {
 	[ 1 ] x = [ 2 ];
 	[ 3 ] y = [ 4 ];
@@ -325,11 +331,11 @@ fale
 
 ### ヒント1
 
-論理型を用いるための型は `boolean` である。
+論理型を用いるための型は boolean である。
 
 ### ヒント2
 
-論理型で、真は `true` 、偽は `false` を用いる。
+論理型で、真は true 、偽は false を用いる。
 
 ### ヒント3
 
@@ -344,7 +350,7 @@ fale
 
 論理型の変数 x に真を格納し、これを偽に変換して変数yに格納してから、それぞれの変数を標準出力に表示するプログラムになるよう、空欄を埋めなさい。
 
-```java
+```
 public static void main(String[] args) {
 	[ 1 ] x = [ 2 ];
 	[ 3 ] y = [ 4 ]x;
@@ -361,11 +367,11 @@ fale
 
 ### ヒント1
 
-論理型を用いるための型は `boolean` である。
+論理型を用いるための型は boolean である。
 
 ### ヒント2
 
-論理型は、否定演算子 `!` を用いることで、真→偽、偽→真に反転できる。
+論理型は、否定演算子 ! を用いることで、真→偽、偽→真に反転できる。
 
 ### ヒント3
 

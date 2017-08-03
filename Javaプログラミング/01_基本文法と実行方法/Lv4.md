@@ -2,9 +2,9 @@
 
 ----
 
-**教材制作者へ**
+### 教材制作者へ
 
-特に指示の無い場合は入力問題とする。
+特に指示の無い場合は**入力問題**とする。
 
 ----
 
@@ -12,7 +12,7 @@
 
 32ビットの整数xとyの和の結果を標準出力に表示するプログラムになるよう、空欄を埋めなさい。
 
-```java
+```
 public static void main(String[] args) {
     [ 1 ] x = 3;
     [ 2 ] y = 5;
@@ -52,7 +52,7 @@ public static void main(String[] args) {
 
 32ビットの整数xとyの積の結果を標準出力に表示するプログラムになるよう、空欄を埋めなさい。
 
-```java
+```
 public static void main(String[] args) {
     [ 1 ] x = 3;
     [ 2 ] y = 5;
@@ -92,7 +92,7 @@ public static void main(String[] args) {
 
 32ビットの整数xとyの差の結果を標準出力に表示するプログラムになるよう、空欄を埋めなさい。
 
-```java
+```
 public static void main(String[] args) {
     [ 1 ] x = 3;
     [ 2 ] y = 5;
@@ -129,9 +129,9 @@ public static void main(String[] args) {
 
 ## Q4
 
-32ビットの浮動小数点少数xとyの商の結果を標準出力に表示するプログラムになるよう、空欄を埋めなさい。
+32ビットの浮動小数点小数xとyの商の結果を標準出力に表示するプログラムになるよう、空欄を埋めなさい。
 
-```java
+```
 public static void main(String[] args) {
     [ 1 ] x = 3.0f;
     [ 2 ] y = 5f;
@@ -148,7 +148,7 @@ public static void main(String[] args) {
 
 ### ヒント1
 
-32ビット浮動小数点少数を用いるための型は `float` である。
+32ビット浮動小数点小数を用いるための型は `float` である。
 
 ### ヒント2
 
@@ -171,7 +171,7 @@ public static void main(String[] args) {
 
 32ビットの整数xとyの比較の結果を標準出力に表示するプログラムになるよう、空欄を埋めなさい。また、実行結果も答えなさい。
 
-```java
+```
 public static void main(String[] args) {
     [ 1 ] x = 3;
     [ 2 ] y = 5;
@@ -210,7 +210,7 @@ x（3）とy（5）の値は同一ではないため、論理型の変数ansに�
 
 32ビットの整数xとyの比較の結果を標準出力に表示するプログラムになるよう、空欄を埋めなさい。また、実行結果も答えなさい。
 
-```java
+```
 public static void main(String[] args) {
     [ 1 ] x = 3;
     [ 2 ] y = 5;
@@ -249,7 +249,7 @@ x（3）はy（5）より小さいため、論理型の変数ansには `true` �
 
 32ビットの整数xとyの比較の結果を標準出力に表示するプログラムになるよう、空欄を埋めなさい。また、実行結果も答えなさい。
 
-```java
+```
 public static void main(String[] args) {
     [ 1 ] x = 5;
     [ 2 ] y = 5;
@@ -286,9 +286,9 @@ x（5）とy（5）の値が同一であるため、論理型の変数ansには 
 
 ## Q8
 
-32ビットの整数xとyの商の結果を、結果が32ビット浮動小数点少数点になるように計算させ、標準出力に表示するプログラムになるよう、空欄を埋めなさい。
+32ビットの整数xとyの商の結果を、結果が32ビット浮動小数点小数点になるように計算させ、標準出力に表示するプログラムになるよう、空欄を埋めなさい。
 
-```java
+```
 public static void main(String[] args) {
 	[ 1 ] x = 3;
 	[ 2 ] y = 7;
@@ -332,7 +332,7 @@ public static void main(String[] args) {
 
 a,b,cの値を使った計算を行い、結果を標準出力に表示するプログラムになるよう、空欄を埋めなさい。また、実行結果も答えなさい。
 
-```java
+```
 public static void main(String[] args) {
     [ 1 ] a = 2;
     [ 2 ] b = 3.0f;
@@ -352,7 +352,7 @@ public static void main(String[] args) {
 
 32ビット整数を用いるための型は `int` である。
 
-32ビット浮動小数点少数を用いるための型は `float` である。
+32ビット浮動小数点小数を用いるための型は `float` である。
 
 ### ヒント2
 
@@ -375,12 +375,12 @@ public static void main(String[] args) {
 
 a,b,c,dの値を使った計算を行い、結果を標準出力に表示するプログラムになるよう、空欄を埋めなさい。また、実行結果も答えなさい。
 
-```java
+```
 public static void main(String[] args) {
     [ 1 ] a = 2;
     [ 2 ] b = 3.0f;
     [ 3 ] c = 5;
-    [ 4 ] d = "答え";
+    [ 4 ] d = "duke";
 
     [ 5 ] ans = d + a + b * c;
     System.out.println([ 6 ]);
@@ -396,7 +396,7 @@ public static void main(String[] args) {
 
 32ビット整数を用いるための型は `int` である。
 
-32ビット浮動小数点少数を用いるための型は `float` である。
+32ビット浮動小数点小数を用いるための型は `float` である。
 
 文字列を用いるための型は `String` である。
 
@@ -426,6 +426,6 @@ public static void main(String[] args) {
 4. String
 5. String
 6. ans
-7. p215.0
+7. duke215.0
 
 
