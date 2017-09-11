@@ -21,7 +21,7 @@ public class Lv7Q10 {
 				System.out.println("終了します");
 				break;
 			}
-			for(int i = 0; i < countries.length; i++) {
+			for (int i = 0; i < countries.length; i++) {
 				float money = yen * rates[i];
 				System.out.println(countries[i] + "：" + money + units[i]);
 			}

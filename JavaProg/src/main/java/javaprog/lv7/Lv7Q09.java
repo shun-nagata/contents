@@ -17,19 +17,19 @@ public class Lv7Q09 {
 				System.out.println("終了します");
 				break;
 			}
-			if(x > 90) {
+			if (x > 90) {
 				System.out.println("秀");
 				continue;
 			}
-			if(x > 80) {
+			if (x > 80) {
 				System.out.println("優");
 				continue;
 			}
-			if(x > 70) {
+			if (x > 70) {
 				System.out.println("良");
 				continue;
 			}
-			if(x > 60) {
+			if (x > 60) {
 				System.out.println("可");
 				continue;
 			}

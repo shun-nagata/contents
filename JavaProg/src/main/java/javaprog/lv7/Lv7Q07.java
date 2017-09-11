@@ -21,5 +21,5 @@ public class Lv7Q07 {
 			System.out.println();
 		}
 	}
-	
+
 }
