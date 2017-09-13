@@ -5,20 +5,23 @@ package javaprog.class_structure.lv7;
  * プログラムと実行結果を問う
  */
 public class Lv7Q06 {
-	public static void main(String[] args) {
-		Student[] students = new Student[]{
-			new Student("Taro", 80),
-			new Student("Hanako", 92),
-			new Student("Hikari", 79)
-		};
 
-		Grader grader = new Grader();
-		for (Student student : students) {
-			grader.setScore(student);
-		}
+	static class Main {
+		public static void main(String[] args) {
+			Student[] students = new Student[]{
+				new Student("Taro", 80),
+				new Student("Hanako", 92),
+				new Student("Hikari", 79)
+			};
 
-		for (Student student : students) {
-			student.print();
+			Grader grader = new Grader();
+			for (Student student : students) {
+				grader.setScore(student);
+			}
+
+			for (Student student : students) {
+				student.print();
+			}
 		}
 	}
 

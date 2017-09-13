@@ -5,18 +5,21 @@ package javaprog.class_structure.lv7;
  * プログラムと実行結果を問う
  */
 public class Lv7Q07 {
-	public static void main(String[] args) {
-		Robot[] robots = new Robot[]{
-			new Robot(100, 5),
-			new Robot(101, 1),
-			new Robot(102, 4)
-		};
 
-		Feeder feeder = new Feeder();
-		feeder.feed(robots);
+	static class Main {
+		public static void main(String[] args) {
+			Robot[] robots = new Robot[]{
+				new Robot(100, 5),
+				new Robot(101, 1),
+				new Robot(102, 4)
+			};
 
-		for (Robot robot : robots) {
-			robot.print();
+			Feeder feeder = new Feeder();
+			feeder.feed(robots);
+
+			for (Robot robot : robots) {
+				robot.print();
+			}
 		}
 	}
 
@@ -44,6 +47,6 @@ public class Lv7Q07 {
 		void print() {
 			System.out.println(number + "号ロボットの燃料は、" + energy);
 		}
-
 	}
+
 }
