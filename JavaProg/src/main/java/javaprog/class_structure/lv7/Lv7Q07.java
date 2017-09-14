@@ -4,7 +4,7 @@ package javaprog.class_structure.lv7;
  * 参照渡し2　失敗例
  * プログラムと実行結果を問う
  */
-public class Lv7Q07 {
+class Lv7Q07 {
 
 	static class Main {
 		public static void main(String[] args) {

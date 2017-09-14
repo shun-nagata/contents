@@ -2,6 +2,9 @@ package javaprog.worksheet.lec01;
 
 import java.util.Scanner;
 
+/**
+ * FizzBuzz(2,5)
+ */
 class Sample05 {
 
 	public static void main(String[] args) {

@@ -4,7 +4,7 @@ package javaprog.class_structure.lv7;
  * 参照渡し3 成功例
  * プログラムと実行結果を問う
  */
-public class Lv7Q08 {
+class Lv7Q08 {
 
 	static class Main {
 
