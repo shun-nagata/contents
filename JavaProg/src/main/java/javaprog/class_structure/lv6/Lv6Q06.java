@@ -3,7 +3,7 @@ package javaprog.class_structure.lv6;
 /**
  * 実行結果を選択肢で問う
  * <p>
- * - コンパイルできない
+ * - コンパイルできないため、実行できない
  * - 実行するとエラーが発生する
  * - HelloとGood byeとThank youが1行ずつ表示される
  * - HelloとGood byeとThank youが1行にまとめて表示される

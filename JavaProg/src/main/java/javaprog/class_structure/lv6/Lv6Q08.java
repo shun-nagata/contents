@@ -10,11 +10,12 @@ class Lv6Q08 {
 	static class Main {
 
 		public static void main(String[] args) {
-			Appender appender = new Appender();
+			int length = 5;
+			Appender appender = new Appender(length);
 			Scanner keyInput = new Scanner(System.in);
-			for (int i = 0; i < 5; i++) {
+			for (int i = 0; i < length; i++) {
 				int input = keyInput.nextInt();
-				appender.append(input);
+				appender.append(i, input);
 			}
 			keyInput.close();
 			System.out.println("入力された数は：");
@@ -24,23 +25,17 @@ class Lv6Q08 {
 		static class Appender {
 			int[] nums;
 
-			Appender() {
-				nums = new int[0];
+			Appender(int length) {
+				nums = new int[length];
 			}
 
-			void append(int input) {
-				int reSize = nums.length + 1;
-				int[] tmpNums = new int[reSize];
-				for (int i = 0; i < nums.length; i++) {
-					tmpNums[i] = nums[i];
-				}
-				tmpNums[reSize - 1] = input;
-				nums = tmpNums;
+			void append(int index, int input) {
+				nums[index] = input;
 			}
 
 			void print() {
-				for (int i : nums) {
-					System.out.print(i + " ");
+				for (int item : nums) {
+					System.out.print(item + " ");
 				}
 			}
 		}

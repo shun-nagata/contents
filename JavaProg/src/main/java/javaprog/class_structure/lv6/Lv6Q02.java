@@ -9,7 +9,7 @@ class Lv6Q02 {
 		public static void main(String[] args) {
 			Sum obj = new Sum(4, 8);
 			System.out.println(obj.getX() + "たす"
-				+ obj.gety() + "は" + obj.sum());
+				+ obj.getY() + "は" + obj.sum());
 		}
 	}
 
@@ -22,15 +22,15 @@ class Lv6Q02 {
 			y = arg1;
 		}
 
-		public int getX() {
+		int getX() {
 			return x;
 		}
 
-		public int gety() {
+		int getY() {
 			return y;
 		}
 
-		public int sum() {
+		int sum() {
 			return x + y;
 		}
 	}

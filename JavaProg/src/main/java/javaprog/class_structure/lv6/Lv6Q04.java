@@ -24,22 +24,21 @@ class Lv6Q04 {
 	static class Converter {
 
 		void toDo1(String[] arg0) {
-			String a = "taro";
+			String a = "Taro";
 			arg0 = new String[]{a};
 		}
 
 		void toDo2(String[] arg1) {
-			String b = "hanako";
+			String b = "Hanako";
 			arg1[1] = b;
 		}
 
 		void toDo3(String[] arg2) {
 			String[] arg3 = arg2;
-			String c = "hikari";
+			String c = "Hikari";
 			arg3[2] = c;
 		}
 	}
-
 
 }
 

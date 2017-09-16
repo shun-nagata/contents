@@ -10,7 +10,7 @@
 
 ## Q1
 
-成年・未成年を判定するプログラムになるよう、空欄を埋めなさい。
+実行結果が表示されるプログラムになるよう、空欄を埋めなさい。
 
 ```java
 class Main {
@@ -573,7 +573,7 @@ Groupクラスのprint()は、フィールド変数personsの要素を標準出�
 
 ```java
 class Main {
-  public void main(String[] args) {
+  public static void main(String[] args) {
     Student[] students = new Student[]{
       new Student("Taro", 80),
       new Student("Hanako", 92),
@@ -688,7 +688,7 @@ class Hoge {
 
 ```java
 class Main {
-  public void main(String[] args) {
+  public static void main(String[] args) {
     Robot[] robots = new Robot[]{
       new Robot(100, 5),
       new Robot(101, 1),
@@ -799,7 +799,7 @@ class Hoge {
 
 ```java
 class Main {
-  public void main(String[] args) {
+  public static void main(String[] args) {
     Robot[] robots = new Robot[]{
       new Robot(100, 5),
       new Robot(101, 1),
