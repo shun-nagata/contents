@@ -2,23 +2,28 @@ package javaprog.class_structure.lv5;
 
 class Lv5Q05 {
 
-	static class Calculator {
+	static class Main {
+		public static void main(String[] args) {
+			TestResult result = new TestResult();
+			result.name = "Taro";
+			result.point = 75;
+			String msg = result.decide(75);
+			System.out.println(msg);
+		}
+	}
 
-		int[] nums;
-		int ans;
+	static class TestResult {
+		String name;
+		int point;
 
-		void sum() {
-			ans = 0;
-			if (isNotNull()) {
-				for (int i : nums) {
-					ans = ans + i;
-				}
+		String decide(int reference) {
+			if (reference < 0) {
+				return name + "は不明";
 			}
+			if (point > reference) {
+				return name + "は合格";
+			}
+			return name + "は不合格";
 		}
-
-		boolean isNotNull() {
-			return nums != null;
-		}
-
 	}
 }

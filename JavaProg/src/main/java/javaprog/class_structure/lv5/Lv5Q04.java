@@ -2,19 +2,23 @@ package javaprog.class_structure.lv5;
 
 class Lv5Q04 {
 
-	static class Person {
+	static class Calculator {
 
-		String name;
-		int age;
+		int[] nums;
+		int ans;
 
-		void print() {
-			String msg = "";
-			if (age >= 20) {
-				msg = name + "さんは成年です";
-			} else {
-				msg = name + "さんは未成年です";
+		void sum() {
+			ans = 0;
+			if (isNotNull()) {
+				for (int i : nums) {
+					ans = ans + i;
+				}
 			}
-			System.out.println(msg);
 		}
+
+		boolean isNotNull() {
+			return nums != null;
+		}
+
 	}
 }

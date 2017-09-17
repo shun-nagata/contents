@@ -2,30 +2,28 @@ package javaprog.class_structure.lv5;
 
 class Lv5Q06 {
 
+	static class Main {
+		public static void main(String[] args) {
+			TestResult result = new TestResult();
+			result.name = "Taro";
+			result.point = 80;
+			String msg = result.decide(-80);
+			System.out.println(msg);
+		}
+	}
+	
 	static class TestResult {
-
 		String name;
 		int point;
-		boolean attendance;
 
-		String decide() {
-			if (!attendance) {
-				return "E";
+		String decide(int reference) {
+			if (reference < 0) {
+				return name + "は不明";
 			}
-			if (point > 90) {
-				return "S";
+			if (point > reference) {
+				return name + "は合格";
 			}
-			if (point > 80) {
-				return "A";
-			}
-			if (point > 70) {
-				return "B";
-			}
-			if (point > 60) {
-				return "C";
-			}
-			return "D";
+			return name + "は不合格";
 		}
-
 	}
 }

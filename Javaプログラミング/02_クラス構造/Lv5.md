@@ -186,63 +186,7 @@ class Hoge {
 4. boolean
 5. age
 
-
 ## Q4
-
-Personクラスのインスタンスが、成年・未成年を判定し名前とともに表示する機能をもつよう、空欄を埋めなさい。
-
-```java
-class Person {
-
-  String [ 1 ];
-  int [ 2 ];
-
-  [ 3 ] print() {
-    String msg = "";
-    if (age [ 4 ] 20) {
-      msg = name + "さんは成年です";
-    } else {
-      msg = name + "さんは未成年です";
-    }
-    System.out.println([ 5 ]);
-  }
-}
-```
-
-### ヒント1
-
-インスタンスの内部では、メソッドの処理にフィールド変数を利用することができる。
-
-```java
-class Hoge {
-  int x;
-
-  // フィールド変数xの値を表示する
-  void do() {
-    System.out.println(x);
-  }
-}
-```
-
-### ヒント2
-
-大小の比較演算子の結果は、bool値である。
-
-### ヒント3
-
-printメソッドは、呼び出し元にreturnする処理がない。
-
-したがって、戻り値の型は void。
-
-答え
-
-1. name
-2. age
-3. void
-4. >=
-5. msg
-
-## Q5
 
 Calculatorクラスのインスタンスが、自身の配列要素の合計を計算する機能を持つよう、空欄を埋めなさい。
 
@@ -301,46 +245,54 @@ Calculatorクラスのインスタンスのフィールド変数numsがnullか�
 4. isNotNull()
 5. null
 
-## Q6
+## Q5
 
-学生のテスト結果を表すTestResultクラスのインスタンスが、テストの得点から成績を判定出来る機能をもつように、空欄を埋めなさい。
+----
 
-- 90点より大きい S
-- 80点より大きい A
-- 70点より大きい B
-- 60点より大きい C
-- 60点以下 D
-- テストに欠席　E
+### 教材制作者へ
 
-ただし、フィールド変数attendanceはテストに出席しているかどうかを表し、出席はtrue, 欠席はfalseのブール値で表すこととする。
+回答欄7は選択式にしてください。
+
+選択肢
+
+- Taroは不明
+- Taroは合格
+- Taroは不合格
+
+----
+
+プログラムの空欄を埋め、実行結果を答えなさい。
 
 ```java
-class TestResult {
-
-  String name;
-  int point;
-  [ 1 ] attendance;
-
-  [ 2 ] decide() {
-    if (![ 3 ]) {
-      return "E";
-    }
-    if ([ 4 ] > 90) {
-      return "S";
-    }
-    if ([ 5 ] > 80) {
-      return "A";
-    }
-    if ([ 6 ] > 70) {
-      return "B";
-    }
-    if ([ 7 ] > 60) {
-      return "C";
-    }
-    return "D";
+class Main {
+  public static void main(String[] args) {
+    TestResult result = new TestResult();
+    result.[ 1 ] = "Taro";
+    result.[ 2 ] = 75;
+    String msg = result.[ 3 ](75);
+    System.out.println(msg);
   }
-
 }
+
+class TestResult {
+  String [ 4 ];
+  int [ 5 ];
+
+  [ 6 ] decide(int reference) {
+    if (reference < 0) {
+      return name + "は不明";
+    }
+    if (point > reference) {
+      return name + "は合格";
+    }
+    return name + "は不合格";
+  }
+}
+```
+
+```
+実行結果
+[ 7 ]
 ```
 
 ### ヒント1
@@ -360,105 +312,156 @@ class Hoge {
 
 ### ヒント2
 
-decideメソッドでは、点数によってA〜Dのテスト結果を文字列で返す。
+インスタンスのフィールドやメソッドは、ピリオドを用いて利用できる
 
-点数の比較を行うためには、int型のフィールドpointを比較に用いる必要がある。
+```java
+// hoge変数が参照するインスタンスのfooフィールドの値を利用する
+hoge.foo;
+
+// hoge変数が参照するインスタンスのbarメソッドを利用する
+hoge.bar();
+```
 
 ### ヒント3
 
-attendanceがテストの出席状況をbool値で表し、欠席（false）の場合は "E" を返す必要がある。
+decideメソッドの条件分岐処理から、フィールド変数はname, pointである。
+
+設問の例では、pointは75, referenceも75となるため、decideメソッドの戻り値は name + "は不合格" が当てはまる。
 
 答え
 
-1. boolean
-2. String
-3. point
-4. point
+1. name
+2. point
+3. decide
+4. name
 5. point
-6. point
-7. point
+6. String
+7. Taroは不合格
+
+## Q6
+
+----
+
+### 教材制作者へ
+
+回答欄7は選択式にしてください。
+
+選択肢
+
+- Taroは不明
+- Taroは合格
+- Taroは不合格
+
+----
+
+プログラムの空欄を埋め、実行結果を答えなさい。
+
+```java
+class Main {
+  public static void main(String[] args) {
+    TestResult result = new TestResult();
+    result.[ 1 ] = "Taro";
+    result.[ 2 ] = 75;
+    String msg = result.[ 3 ](75);
+    System.out.println(msg);
+  }
+}
+
+class TestResult {
+  String [ 4 ];
+  int [ 5 ];
+
+  [ 6 ] decide(int reference) {
+    if (reference < 0) {
+      return name + "は不明";
+    }
+    if (point > reference) {
+      return name + "は合格";
+    }
+    return name + "は不合格";
+  }
+}
+```
+
+```
+実行結果
+[ 7 ]
+```
+
+### ヒント1
+
+インスタンスの内部では、メソッドの処理にフィールド変数を利用することができる。
+
+```java
+class Hoge {
+  int x;
+
+  // フィールド変数xの値を表示する
+  void do() {
+    System.out.println(x);
+  }
+}
+```
+
+### ヒント2
+
+インスタンスのフィールドやメソッドは、ピリオドを用いて利用できる
+
+```java
+// hoge変数が参照するインスタンスのfooフィールドの値を利用する
+hoge.foo;
+
+// hoge変数が参照するインスタンスのbarメソッドを利用する
+hoge.bar();
+```
+
+### ヒント3
+
+decideメソッドの条件分岐処理から、フィールド変数はname, pointである。
+
+設問の例では、pointは75, referenceは-80となるため、decideメソッドの戻り値は name + "は不明" が当てはまる。
+
+答え
+
+1. name
+2. point
+3. decide
+4. name
+5. point
+6. String
+7. Taroは不明
 
 ## Q7
 
-学生のテスト結果を表すTestResultクラスのインスタンスが、テストの得点と、引数で渡される基準点を使って合否を判定出来る機能をもつように、空欄を埋めなさい。
-
-- テストの得点が基準点より大きい　"合格"
-- テストの得点が基準点より小さい　"不合格"
-- 基準点が0よりも小さい　"不明"
+プログラムの空欄を埋め、実行結果を答えなさい。
 
 ```java
-class TestResult {
-
-  String name;
-  int point;
-
-  [ 1 ] decide([ 2 ] reference) {
-    if ([ 3 ] < 0) {
-      return "不明";
-    }
-    if ([ 4 ] > reference) {
-      return "合格";
-    }
-    return "不合格";
-  }
-
-}
-```
-
-### ヒント1
-
-インスタンスの内部では、メソッドの処理にフィールド変数を利用することができる。
-
-```java
-class Hoge {
-  int x;
-
-  // フィールド変数xの値を表示する
-  void do() {
-    System.out.println(x);
+class Main {
+  public static void main(String[] args) {
+    Calculator calc = [ 1 ] Calculator();
+    calc.x = 5;
+    calc.y = 2;
+    float ans = calc.[ 2 ];
+    System.out.println(ans);
   }
 }
-```
 
-### ヒント2
-
-decideメソッドには、引数referenceがある。問題文からはこれが基準点となるため、条件にあうように、テスト点（数値）を表すフィールド変数と比較する。
-
-### ヒント3
-
-decideメソッドで判定される返値は、文字列である。
-
-答え
-
-1. String
-2. int
-3. reference
-4. point
-
-
-## Q8
-
-Calculatorクラスのインスタンスが、保持する数値のかけ算、割り算が行える機能をもつように、空欄を埋めなさい。
-
-ただし、分母が0の時、割り算の結果は0を返すこととする。
-
-```java
 class Calculator {
-  int x;
-  int y;
-
-  [ 1 ] multiply() {
-    return x * y;
-  }
+  [ 3 ] x;
+  [ 4 ] y;
 
   float divide() {
-    if ([ 2 ] != 0) {
-      return ([ 3 ]) x / y;
+    if (y != 0) {
+      return [ 5 ] x / y;
     }
-    return [ 4 ];
+    return 0;
   }
-
 }
+```
+
+```
+実行結果
+[ 6 ]
 ```
 
 ### ヒント1
@@ -478,15 +481,105 @@ class Hoge {
 
 ### ヒント2
 
-int型の値どうしのかけ算の結果は int型 になる。
+インスタンスのフィールドやメソッドは、ピリオドを用いて利用できる
+
+```java
+// hoge変数が参照するインスタンスのfooフィールドの値を利用する
+hoge.foo;
+
+// hoge変数が参照するインスタンスのbarメソッドを利用する
+hoge.bar();
+```
 
 ### ヒント3
 
-割り算を行うdivideメソッドの返値はfloatのため、割り算の結果をfloat型に変換するキャストが必要である。
+Calculatorクラスのフィールド変数 x, yには整数が代入されているため、x,yの型は int 型である。
+
+divideメソッドの戻り値はfloatのため、型変換（キャスト）が必要である。　float型に変換したxをyで割り算し、5.0/2が実行結果の式となる。
 
 答え
 
-1. int
-2. y
-3. float
-4. 0
+1. new
+2. divide()
+3. int
+4. int
+5. float
+6. 2.5
+
+## Q7
+
+プログラムの空欄を埋め、実行結果を答えなさい。
+
+```java
+class Main {
+  public static void main(String[] args) {
+    Calculator calc = [ 1 ] Calculator();
+    calc.x = 8;
+    calc.y = 0;
+    float ans = calc.[ 2 ];
+    System.out.println(ans);
+  }
+}
+
+class Calculator {
+  [ 3 ] x;
+  [ 4 ] y;
+
+  float divide() {
+    if (y != 0) {
+      return [ 5 ] x / y;
+    }
+    return 0;
+  }
+}
+```
+
+```
+実行結果
+[ 6 ]
+```
+
+### ヒント1
+
+インスタンスの内部では、メソッドの処理にフィールド変数を利用することができる。
+
+```java
+class Hoge {
+  int x;
+
+  // フィールド変数xの値を表示する
+  void do() {
+    System.out.println(x);
+  }
+}
+```
+
+### ヒント2
+
+インスタンスのフィールドやメソッドは、ピリオドを用いて利用できる
+
+```java
+// hoge変数が参照するインスタンスのfooフィールドの値を利用する
+hoge.foo;
+
+// hoge変数が参照するインスタンスのbarメソッドを利用する
+hoge.bar();
+```
+
+### ヒント3
+
+Calculatorクラスのフィールド変数 x, yには整数が代入されているため、x,yの型は int 型である。
+
+divideメソッドの戻り値はfloatのため、型変換（キャスト）が必要である。
+
+yは0であるため、実行結果は0となる。
+
+答え
+
+1. new
+2. divide()
+3. int
+4. int
+5. float
+6. 0
+

@@ -1,26 +1,24 @@
-package javaprog.class_structure.lv5;
+package javaprog.class_structure.lv4;
 
-class Lv5Q08 {
+public class Lv4Q01 {
 
 	static class Main {
 		public static void main(String[] args) {
 			Calculator calc = new Calculator();
-			calc.x = 8;
-			calc.y = 0;
-			float ans = calc.divide();
+			float ans = calc.divide(5, 2);
 			System.out.println(ans);
 		}
 	}
 
 	static class Calculator {
-		int x;
-		int y;
 
-		float divide() {
+		float divide(int x, int y) {
 			if (y != 0) {
 				return (float) x / y;
 			}
 			return 0;
 		}
+
 	}
+
 }
