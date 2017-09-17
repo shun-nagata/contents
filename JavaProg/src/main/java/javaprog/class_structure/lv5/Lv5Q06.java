@@ -11,7 +11,7 @@ class Lv5Q06 {
 			System.out.println(msg);
 		}
 	}
-	
+
 	static class TestResult {
 		String name;
 		int point;

@@ -20,7 +20,7 @@ class Lv5Q08 {
 			if (y != 0) {
 				return (float) x / y;
 			}
-			return 0;
+			return 0.0F;
 		}
 	}
 }

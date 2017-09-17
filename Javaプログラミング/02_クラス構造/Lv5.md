@@ -454,7 +454,7 @@ class Calculator {
     if (y != 0) {
       return [ 5 ] x / y;
     }
-    return 0;
+    return 0.0F;
   }
 }
 ```
@@ -529,7 +529,7 @@ class Calculator {
     if (y != 0) {
       return [ 5 ] x / y;
     }
-    return 0;
+    return 0.0F;
   }
 }
 ```
@@ -581,5 +581,5 @@ yは0であるため、実行結果は0となる。
 3. int
 4. int
 5. float
-6. 0
+6. 0.0
 
