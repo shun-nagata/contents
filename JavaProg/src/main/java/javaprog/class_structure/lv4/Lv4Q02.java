@@ -1,11 +1,11 @@
 package javaprog.class_structure.lv4;
 
-public class Lv4Q01 {
+public class Lv4Q02 {
 
 	static class Main {
 		public static void main(String[] args) {
 			Calculator calc = new Calculator();
-			float ans = calc.divide(7, 0);
+			float ans = calc.divide(7, 2);
 			System.out.println(ans);
 		}
 	}
