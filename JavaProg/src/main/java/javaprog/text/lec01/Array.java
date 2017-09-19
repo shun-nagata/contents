@@ -1,6 +1,6 @@
 package javaprog.text.lec01;
 
-public class Array {
+class Array {
 
 	public static void main(String[] args) {
 		int[] nums1 = {1, 2, 3, 4};

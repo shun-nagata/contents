@@ -1,6 +1,6 @@
 package javaprog.text.lec01;
 
-public class Loop {
+class Loop {
 
 	public static void main(String[] args) {
 

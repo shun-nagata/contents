@@ -1,6 +1,6 @@
 package javaprog.text.lec01;
 
-public class Conditional {
+class Conditional {
 
 	public static void main(String[] args) {
 		boolean 判定式 = true;
@@ -22,4 +22,6 @@ public class Conditional {
 		}
 
 	}
+
+
 }

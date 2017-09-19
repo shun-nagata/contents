@@ -1,6 +1,6 @@
 package javaprog.text.lec01;
 
-public class Data {
+class Data {
 
 	public static void main(String[] args) {
 		int i = 10;

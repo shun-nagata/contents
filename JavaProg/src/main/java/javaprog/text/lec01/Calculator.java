@@ -1,6 +1,6 @@
 package javaprog.text.lec01;
 
-public class Calculator {
+class Calculator {
 
 	public static void main(String[] args) {
 		int x = 9;
@@ -29,7 +29,6 @@ public class Calculator {
 		System.out.println(bool3);
 		System.out.println(bool4);
 		System.out.println(bool5);
-
 	}
 
 }
