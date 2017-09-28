@@ -6,18 +6,17 @@ class Lv3Q02 {
 
 	static class Main {
 		public static void main(String[] args) {
-			new KeyInputer();
+			new Inputter();
 		}
 	}
 
-	static class KeyInputer {
-		KeyInputer() {
+	static class Inputter {
+		Inputter() {
 			Scanner scanner = new Scanner(System.in);
 			int num = scanner.nextInt();
 			scanner.close();
-			System.out.println("入力値は" + num);
+			System.out.println("Ans:" + num * num);
 		}
 	}
-
 
 }

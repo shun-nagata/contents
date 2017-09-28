@@ -4,14 +4,12 @@ class Lv3Q07 {
 
 	static class Main {
 		public static void main(String[] args) {
-			int a = 5;
-			int b = 4;
-			new Addition();
+			new Add();
 		}
 	}
 
-	static class Addition {
-		Addition() {
+	static class Add {
+		Add() {
 			int a = 3;
 			int b = 2;
 			System.out.println(a + b);

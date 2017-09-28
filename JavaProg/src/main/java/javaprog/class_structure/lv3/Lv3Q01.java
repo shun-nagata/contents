@@ -12,10 +12,8 @@ class Lv3Q01 {
 		Printer() {
 			int a = 10;
 			int b = 8;
-			int c = 10 + 8;
-			System.out.println(a + "たす" + b + "は" + c);
+			System.out.println(a + b);
 		}
 	}
-
 
 }

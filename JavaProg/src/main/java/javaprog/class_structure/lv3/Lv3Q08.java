@@ -4,21 +4,24 @@ class Lv3Q08 {
 
 	static class Main {
 		public static void main(String[] args) {
-			new Addition();
+			new Add();
 		}
 	}
 
-	static class Addition {
-		Addition() {
+	static class Add {
+		Add() {
 			int a = 5;
 			int b = 4;
 			System.out.println(a + b);
 		}
 	}
 
-	static class Multiplication {
-		Multiplication() {
-//			System.out.println(a * b);
+	static class Multi {
+		Multi() {
+			int a = 5;
+			int b = 4;
+			System.out.println(a * b);
 		}
 	}
+
 }

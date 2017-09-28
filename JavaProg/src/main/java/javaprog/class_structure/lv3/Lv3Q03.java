@@ -15,9 +15,11 @@ class Lv3Q03 {
 		}
 
 	}
+
 	static class ClassB {
 		ClassB() {
 			System.out.println("Bをインスタンス化");
 		}
 	}
+
 }

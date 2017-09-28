@@ -20,4 +20,5 @@ class Lv3Q04 {
 			System.out.println("Bをインスタンス化");
 		}
 	}
+
 }
