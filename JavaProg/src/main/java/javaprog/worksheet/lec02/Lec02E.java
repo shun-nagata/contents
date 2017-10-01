@@ -18,7 +18,8 @@ class Lec02E {
 		System.out.println("入力された数値は");
 		for (int numi : nums) {
 			String suffix = "は素数！";
-			if (numi < 2) {
+			// 素数の求め方は、合っていればこれよりシンプルでもよい
+			if (numi < 2 || (numi != 2 && numi % 2 == 0)) {
 				suffix = "";
 			} else for (int i = 2; i <= numi / 2; i++) {
 				if (numi % i == 0) {
