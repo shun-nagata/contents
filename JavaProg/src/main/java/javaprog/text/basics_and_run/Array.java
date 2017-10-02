@@ -1,4 +1,4 @@
-package javaprog.text.lec01;
+package javaprog.text.basics_and_run;
 
 class Array {
 
