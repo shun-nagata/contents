@@ -14,7 +14,7 @@ Printerクラスをインスタンス化して実行するプログラムにな�
 
 ```java
 class Main {
-  public void main(String[] args) {
+  public static void main(String[] args) {
     [  1  ] [  2  ];
   }
 }
@@ -79,7 +79,7 @@ class Foo {
 1. new
 2. Printer()
 3. Printer()
-4. Ans:10
+4. Ans:108
 
 
 ## Q2
@@ -90,7 +90,7 @@ Inputterクラスをインスタンス化して実行するプログラムにな
 
 ```java
 class Main {
-  public void main(String[] args) {
+  public static void main(String[] args) {
     [  1  ] [  2  ];
   }
 }
@@ -167,7 +167,7 @@ class Foo {
 
 ```java
 class Main {
-  public void main(String[] args) {
+  public static void main(String[] args) {
     [  1  ] [  2  ];
     [  3  ] [  4  ];
   }
@@ -252,7 +252,7 @@ new ClassA();
 
 ```java
 class Main {
-  public void main(String[] args) {
+  public static void main(String[] args) {
     [  1  ] [  2  ];
     [  3  ] [  4  ];
   }
@@ -336,7 +336,7 @@ new ClassB();
 
 ```java
 class Main {
-  public void main(String[] args) {
+  public static void main(String[] args) {
   	new Add();
   	new Multi();
   }
@@ -421,7 +421,7 @@ mainブロックでは、 Addクラス、Multiクラスの順でインスタン�
 
 ```java
 class Main {
-  public void main(String[] args) {
+  public static void main(String[] args) {
     int a = 5;
     int b = 4;
     new Addition();
@@ -495,7 +495,7 @@ Addクラスの Add() コンストラクタでは、そのブロックで宣言�
 
 ```java
 class Main {
-  public void main(String[] args) {
+  public static void main(String[] args) {
     new Add();
   }
 }
@@ -574,7 +574,7 @@ Javaのプログラムは、mainブロックから実行される。
 
 ```java
 class Main {
-  public void main(String[] args) {
+  public static void main(String[] args) {
     new Add();
   }
 }
