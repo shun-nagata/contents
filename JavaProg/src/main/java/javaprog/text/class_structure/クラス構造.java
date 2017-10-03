@@ -20,8 +20,8 @@ class クラス構造 {
       System.out.println(ans);
     }
 
-    float tenths(int a) { 
-      return a / 10.0F; 
+    float tenths(int a) {
+      return a / 10.0F;
     }
 
     int square(int a, int b) {
@@ -45,8 +45,8 @@ class クラス構造 {
       return 1 + 2;
     }
 
-    float tenths(int a) { 
-      return a / 10.0F; 
+    float tenths(int a) {
+      return a / 10.0F;
     }
 
     int square(int a, int b) {
@@ -54,6 +54,14 @@ class クラス構造 {
     }
 
   }
-  static class 戻り値の型 {};
-  static class 引数の型 {};
+
+  static class 戻り値の型 {
+  }
+
+  ;
+
+  static class 引数の型 {
+  }
+
+  ;
 }
