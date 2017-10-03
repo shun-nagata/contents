@@ -6,6 +6,11 @@ public class コンストラクタ {
     String name;
     int age;
 
+    Cat() {
+      name = "Taro";
+      age = 0;
+    }
+
     Cat(String name, int age) {
       this.name = name;
       this.age = age;
