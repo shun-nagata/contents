@@ -5,5 +5,10 @@ public class フィールド {
   static class Person {
     String name;
     int age;
+
+    boolean isAdult() {
+      return age >= 20;
+    }
   }
+
 }
