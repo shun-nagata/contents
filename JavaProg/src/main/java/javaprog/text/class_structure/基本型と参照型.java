@@ -1,16 +1,16 @@
 package javaprog.text.class_structure;
 
-public class 基本型と参照型 {
+class 基本型と参照型 {
 
   static class Main {
     public static void main(String[] args) {
       int a = 10;
-      int b = 20;
-      int c = a;
+      int b = a;
+      int c = 20;
 
       Foo f1 = new Foo();
-      Foo f2 = new Foo();
-      Foo f3 = f1;
+      Foo f2 = f1;
+      Foo f3 = new Foo();
     }
   }
 
