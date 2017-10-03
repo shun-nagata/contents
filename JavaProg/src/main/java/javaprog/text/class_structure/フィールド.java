@@ -2,13 +2,23 @@ package javaprog.text.class_structure;
 
 public class フィールド {
 
-  static class Person {
+  static class Cat {
     String name;
     int age;
 
-    boolean isAdult() {
+    boolean isNecomata() {
       return age >= 20;
     }
+  }
+
+  static class Main {
+
+    public static void main(String[] args) {
+      Cat cat = new Cat();
+      cat.name = "Hikari";
+      cat.age = 14;
+    }
+
   }
 
 }
