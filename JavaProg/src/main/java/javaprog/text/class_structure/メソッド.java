@@ -1,6 +1,6 @@
 package javaprog.text.class_structure;
 
-class クラス構造 {
+class メソッド {
 
   static class Main {
     public static void main(String[] args) {
