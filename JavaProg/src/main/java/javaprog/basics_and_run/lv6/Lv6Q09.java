@@ -7,21 +7,21 @@ import java.util.Scanner;
  */
 public class Lv6Q09 {
 
-	public static void main(String[] args) {
-		Scanner keyInput = new Scanner(System.in);
+  public static void main(String[] args) {
+    Scanner keyInput = new Scanner(System.in);
 
-		System.out.print("xの値は：");
-		int x = keyInput.nextInt();
+    System.out.print("xの値は：");
+    int x = keyInput.nextInt();
 
-		System.out.print("yの値は：");
-		int y = keyInput.nextInt();
+    System.out.print("yの値は：");
+    int y = keyInput.nextInt();
 
-		keyInput.close();
+    keyInput.close();
 
-		for (int i = 1; i <= y; i++) {
-			long ans = x * i;
-			System.out.println(x + "×" + i + "は：" + ans);
-		}
-	}
+    for (int i = 1; i <= y; i++) {
+      long ans = x * i;
+      System.out.println(x + "×" + i + "は：" + ans);
+    }
+  }
 
 }

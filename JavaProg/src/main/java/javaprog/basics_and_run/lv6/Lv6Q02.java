@@ -5,17 +5,17 @@ package javaprog.basics_and_run.lv6;
  */
 public class Lv6Q02 {
 
-	public static void main(String[] args) {
-		float[] x = {18.91f, 71.52f, 3.65f, 63.32f, 43.71f};
+  public static void main(String[] args) {
+    float[] x = {18.91f, 71.52f, 3.65f, 63.32f, 43.71f};
 
-		float sum = 0f;
-		for (float xi : x) {
-			sum = sum + xi;
-		}
+    float sum = 0f;
+    for (float xi : x) {
+      sum = sum + xi;
+    }
 
-		float ave = sum / x.length;
+    float ave = sum / x.length;
 
-		System.out.println(ave);
-	}
+    System.out.println(ave);
+  }
 
 }

@@ -5,53 +5,53 @@ package javaprog.class_structure.lv7;
  */
 class Lv7Q04 {
 
-	static class Main {
+  static class Main {
 
-		public static void main(String[] args) {
-			Person[] persons = new Person[]{
-				new Person("Taro", 19),
-				new Person("Hanako", 20),
-				new Person("Hikari", 12),
-				new Person("Minato", 22)
-			};
-			Group group = new Group(persons);
-			group.print();
-		}
-	}
+    public static void main(String[] args) {
+      Person[] persons = new Person[]{
+        new Person("Taro", 19),
+        new Person("Hanako", 20),
+        new Person("Hikari", 12),
+        new Person("Minato", 22)
+      };
+      Group group = new Group(persons);
+      group.print();
+    }
+  }
 
-	static class Person {
-		String name;
-		int age;
+  static class Person {
+    String name;
+    int age;
 
-		Person(String name, int age) {
-			this.name = name;
-			this.age = age;
-		}
+    Person(String name, int age) {
+      this.name = name;
+      this.age = age;
+    }
 
-		boolean isAdult() {
-			return age >= 20;
-		}
+    boolean isAdult() {
+      return age >= 20;
+    }
 
-		void printName() {
-			System.out.println(name);
-		}
-	}
+    void printName() {
+      System.out.println(name);
+    }
+  }
 
-	static class Group {
-		Person[] persons;
+  static class Group {
+    Person[] persons;
 
-		Group(Person[] persons) {
-			this.persons = persons;
-		}
+    Group(Person[] persons) {
+      this.persons = persons;
+    }
 
-		void print() {
-			for (Person pi : persons) {
-				if (pi.isAdult()) {
-					pi.printName();
-				}
-			}
-		}
-	}
+    void print() {
+      for (Person pi : persons) {
+        if (pi.isAdult()) {
+          pi.printName();
+        }
+      }
+    }
+  }
 
 }
 

@@ -5,14 +5,14 @@ package javaprog.basics_and_run.lv5;
  */
 public class Lv5Q05 {
 
-	public static void main(String[] args) {
-		int x = 5;
+  public static void main(String[] args) {
+    int x = 5;
 
-		if (x % 2 == 0) {
-			System.out.println("○");
-		} else {
-			System.out.println("×");
-		}
-	}
+    if (x % 2 == 0) {
+      System.out.println("○");
+    } else {
+      System.out.println("×");
+    }
+  }
 
 }

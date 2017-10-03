@@ -7,23 +7,23 @@ import java.util.Scanner;
  */
 public class Lv6Q10 {
 
-	public static void main(String[] args) {
-		Scanner keyInput = new Scanner(System.in);
+  public static void main(String[] args) {
+    Scanner keyInput = new Scanner(System.in);
 
-		System.out.print("xの値は：");
-		int x = keyInput.nextInt();
+    System.out.print("xの値は：");
+    int x = keyInput.nextInt();
 
-		System.out.print("yの値は：");
-		int y = keyInput.nextInt();
+    System.out.print("yの値は：");
+    int y = keyInput.nextInt();
 
-		keyInput.close();
+    keyInput.close();
 
-		for (int xi = 0; xi < x; xi++) {
-			for (int yi = 0; yi < y; yi++) {
-				System.out.print("*");
-			}
-			System.out.println();
-		}
-	}
+    for (int xi = 0; xi < x; xi++) {
+      for (int yi = 0; yi < y; yi++) {
+        System.out.print("*");
+      }
+      System.out.println();
+    }
+  }
 
 }

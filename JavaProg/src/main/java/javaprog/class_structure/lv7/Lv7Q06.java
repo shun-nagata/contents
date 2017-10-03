@@ -6,50 +6,50 @@ package javaprog.class_structure.lv7;
  */
 class Lv7Q06 {
 
-	static class Main {
-		public static void main(String[] args) {
-			Student[] students = new Student[]{
-				new Student("Taro", 80),
-				new Student("Hanako", 92),
-				new Student("Hikari", 79)
-			};
+  static class Main {
+    public static void main(String[] args) {
+      Student[] students = new Student[]{
+        new Student("Taro", 80),
+        new Student("Hanako", 92),
+        new Student("Hikari", 79)
+      };
 
-			Grader grader = new Grader();
-			for (Student student : students) {
-				grader.setScore(student);
-			}
+      Grader grader = new Grader();
+      for (Student student : students) {
+        grader.setScore(student);
+      }
 
-			for (Student student : students) {
-				student.print();
-			}
-		}
-	}
+      for (Student student : students) {
+        student.print();
+      }
+    }
+  }
 
-	static class Grader {
+  static class Grader {
 
-		void setScore(Student student) {
-			if (student.score > 80) {
-				student.rank = "合格";
-			} else {
-				student.rank = "不合格";
-			}
-		}
-	}
+    void setScore(Student student) {
+      if (student.score > 80) {
+        student.rank = "合格";
+      } else {
+        student.rank = "不合格";
+      }
+    }
+  }
 
-	static class Student {
-		String name;
-		int score;
-		String rank;
+  static class Student {
+    String name;
+    int score;
+    String rank;
 
-		Student(String name, int score) {
-			this.name = name;
-			this.score = score;
-			this.rank = "不明";
-		}
+    Student(String name, int score) {
+      this.name = name;
+      this.score = score;
+      this.rank = "不明";
+    }
 
-		void print() {
-			System.out.println(name + "は、" + rank);
-		}
+    void print() {
+      System.out.println(name + "は、" + rank);
+    }
 
-	}
+  }
 }

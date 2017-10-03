@@ -13,29 +13,29 @@ package javaprog.class_structure.lv6;
  */
 class Lv6Q05 {
 
-	static class Main {
-		public static void main(String[] args) {
-			String[] strs = {"Hello", "Good Bye", "Thank you"};
-			Printer printer = new Printer();
-			printer.print();
-		}
-	}
+  static class Main {
+    public static void main(String[] args) {
+      String[] strs = {"Hello", "Good Bye", "Thank you"};
+      Printer printer = new Printer();
+      printer.print();
+    }
+  }
 
-	static class Printer {
-		String[] strs;
+  static class Printer {
+    String[] strs;
 
-		Printer() {
-			strs = null;
-		}
+    Printer() {
+      strs = null;
+    }
 
-		Printer(String[] arg0) {
-			this.strs = arg0;
-		}
+    Printer(String[] arg0) {
+      this.strs = arg0;
+    }
 
-		void print() {
-			for (String str : strs) {
-				System.out.println(str);
-			}
-		}
-	}
+    void print() {
+      for (String str : strs) {
+        System.out.println(str);
+      }
+    }
+  }
 }

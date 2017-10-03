@@ -5,17 +5,17 @@ package javaprog.basics_and_run.lv6;
  */
 public class Lv6Q03 {
 
-	public static void main(String[] args) {
-		int[] x = {13, 88, 9, 30, 3, 14, 42, 53};
+  public static void main(String[] args) {
+    int[] x = {13, 88, 9, 30, 3, 14, 42, 53};
 
-		int max = x[0];
-		for (int i = 1; i < x.length; i++) {
-			if (max < x[i]) {
-				max = x[i];
-			}
-		}
+    int max = x[0];
+    for (int i = 1; i < x.length; i++) {
+      if (max < x[i]) {
+        max = x[i];
+      }
+    }
 
-		System.out.println(max);
-	}
+    System.out.println(max);
+  }
 
 }

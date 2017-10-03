@@ -7,27 +7,27 @@ import java.util.Scanner;
  */
 public class Lv7Q02 {
 
-	public static void main(String[] args) {
-		int counter = 5;
-		float[] x = new float[counter];
+  public static void main(String[] args) {
+    int counter = 5;
+    float[] x = new float[counter];
 
-		Scanner keyInput = new Scanner(System.in);
+    Scanner keyInput = new Scanner(System.in);
 
-		for (int i = 0; i < counter; i++) {
-			System.out.print(i + "番目:");
-			x[i] = keyInput.nextFloat();
-		}
+    for (int i = 0; i < counter; i++) {
+      System.out.print(i + "番目:");
+      x[i] = keyInput.nextFloat();
+    }
 
-		keyInput.close();
+    keyInput.close();
 
-		float total = 0;
-		for (float xi : x) {
-			total = total + xi;
-		}
+    float total = 0;
+    for (float xi : x) {
+      total = total + xi;
+    }
 
-		float avg = total / x.length;
+    float avg = total / x.length;
 
-		System.out.println("平均は" + avg);
-	}
+    System.out.println("平均は" + avg);
+  }
 
 }

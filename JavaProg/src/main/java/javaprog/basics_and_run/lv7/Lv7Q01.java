@@ -7,25 +7,25 @@ import java.util.Scanner;
  */
 public class Lv7Q01 {
 
-	public static void main(String[] args) {
-		int counter = 5;
-		int[] x = new int[counter];
+  public static void main(String[] args) {
+    int counter = 5;
+    int[] x = new int[counter];
 
-		Scanner keyInput = new Scanner(System.in);
+    Scanner keyInput = new Scanner(System.in);
 
-		for (int i = 0; i < counter; i++) {
-			System.out.print(i + "番目:");
-			x[i] = keyInput.nextInt();
-		}
+    for (int i = 0; i < counter; i++) {
+      System.out.print(i + "番目:");
+      x[i] = keyInput.nextInt();
+    }
 
-		keyInput.close();
+    keyInput.close();
 
-		int total = 0;
-		for (int xi : x) {
-			total = total + xi;
-		}
+    int total = 0;
+    for (int xi : x) {
+      total = total + xi;
+    }
 
-		System.out.println("合計は" + total);
-	}
+    System.out.println("合計は" + total);
+  }
 
 }

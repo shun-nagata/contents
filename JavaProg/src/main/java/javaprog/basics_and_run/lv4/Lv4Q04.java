@@ -5,12 +5,12 @@ package javaprog.basics_and_run.lv4;
  */
 public class Lv4Q04 {
 
-	public static void main(String[] args) {
-		float x = 3.0f;
-		float y = 5f;
+  public static void main(String[] args) {
+    float x = 3.0f;
+    float y = 5f;
 
-		float ans = x / y;
-		System.out.println(ans);
-	}
+    float ans = x / y;
+    System.out.println(ans);
+  }
 
 }

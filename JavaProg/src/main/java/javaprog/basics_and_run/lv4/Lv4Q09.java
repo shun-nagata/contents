@@ -5,15 +5,15 @@ package javaprog.basics_and_run.lv4;
  */
 public class Lv4Q09 {
 
-	public static void main(String[] args) {
+  public static void main(String[] args) {
 
-		int a = 2;
-		float b = 3.0f;
-		int c = 5;
+    int a = 2;
+    float b = 3.0f;
+    int c = 5;
 
-		float ans = a + b * c;
+    float ans = a + b * c;
 
-		System.out.println(ans);
-	}
+    System.out.println(ans);
+  }
 
 }
