@@ -10,7 +10,7 @@
 
 ## Q1
 
-部品となるクラス「Printer」を利用するプログラムとなるよう、空欄を埋めよ。
+部品となるクラス「Printer」をインスタンス化するプログラムとなるよう、空欄を埋めよ。
 
 ```java
 public static void main(String[] args) {
@@ -51,7 +51,7 @@ new Foo();
 
 ## Q2
 
-部品となるクラス「Inputter」を利用するプログラムとなるよう、空欄を埋めよ。
+部品となるクラス「Inputter」をインスタンス化するプログラムとなるよう、空欄を埋めよ。
 
 ```java
 public static void main(String[] args) {
