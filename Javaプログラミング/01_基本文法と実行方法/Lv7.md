@@ -722,9 +722,9 @@ while (論理型の値や条件式) {
 
 ```
 public static void main(String[] args) {
-  [ 1 ] countries = {"US", "EUR", "ARS"};
-  [ 2 ] rates = {0.0090f, 0.0076f, 0.1586f};
-  [ 3 ] units = {"ドル", "ユーロ", "ペソ"};
+  [ 1 ] countries = new String[]{"US", "EUR", "ARS"};
+  [ 2 ] rates = new float[]{0.0090f, 0.0076f, 0.1586f};
+  [ 3 ] units = new String[]{"ドル", "ユーロ", "ペソ"};
 
   Scanner keyInput = new Scanner(System.in);
 
