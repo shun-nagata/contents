@@ -37,7 +37,7 @@ public static void main(String[] args) {
 32ビット整数型の配列は[]をつけて宣言する。
 
 ```java
-int[] 変数名 = {要素};
+int[] 変数名 = new int[]{要素};
 ```
 
 ### ヒント2
@@ -100,7 +100,7 @@ public static void main(String[] args) {
 32ビット浮動小数点型の配列は、[]をつけて宣言する。
 
 ```java
-float[] 変数名 = {要素};
+float[] 変数名 = new float[]{要素};
 ```
 
 ### ヒント2
@@ -161,7 +161,7 @@ public static void main(String[] args) {
 32ビット整数型の配列は[]をつけて宣言する。
 
 ```java
-int[] 変数名 = {要素};
+int[] 変数名 = int[]{要素};
 ```
 
 ### ヒント2
@@ -215,7 +215,7 @@ public static void main(String[] args) {
 32ビット整数型の配列は[]をつけて宣言する。
 
 ```java
-int[] 変数名 = {要素};
+int[] 変数名 = new int[]{要素};
 ```
 
 ### ヒント2
@@ -269,7 +269,7 @@ public static void main(String[] args) {
 32ビット整数型の配列は[]をつけて宣言する。
 
 ```java
-int[] 変数名 = {要素};
+int[] 変数名 = new int[]{要素};
 ```
 
 ### ヒント2
@@ -330,7 +330,7 @@ public static void main(String[] args) {
 32ビット整数型の配列は[]をつけて宣言する。
 
 ```java
-int[] 変数名 = {要素};
+int[] 変数名 = new int[]{要素};
 ```
 
 ### ヒント2
@@ -396,7 +396,7 @@ public static void main(String[] args) {
 32ビット整数型の配列は[]をつけて宣言する。
 
 ```java
-int[] 変数名 = {要素};
+int[] 変数名 = new int[]{要素};
 ```
 
 ### ヒント2
