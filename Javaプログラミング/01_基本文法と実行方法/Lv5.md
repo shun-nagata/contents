@@ -14,7 +14,7 @@
 
 ```java
 public static void main(String[] args) {
-  [ 1 ] (int i = 1; i [ 2 ] [ 3 ]; [ 4 ]) {
+  [ 1 ] (int [ 2 ] = [ 3 ]; i [ 4 ] 50; i++) {
     System.out.println(i);
   }
 }
@@ -55,9 +55,9 @@ for (初期値の設定; 反復条件; 反復ごとの初期値の増減) {
 答え
 
 1. for
-2. <=
-3. 50
-4. i++
+2. i
+3. 1
+4. <=
 
 ## Q2
 
@@ -65,7 +65,7 @@ for (初期値の設定; 反復条件; 反復ごとの初期値の増減) {
 
 ```java
 public static void main(String[] args) {
-  [ 1 ] (int i = [ 2 ]; i [ 3 ] [ 4 ]; i--) {
+    [ 1 ] (int [ 2 ] = [ 3 ]; i [ 4 ] 1; i--) {
     System.out.println(i);
   }
 }
@@ -106,9 +106,9 @@ for (初期値の設定; 反復条件; 反復ごとの初期値の増減) {
 答え
 
 1. for
-2. 50
-3. \>=
-4. 1
+2. i
+3. 50
+4. \>=
 
 
 ## Q3
