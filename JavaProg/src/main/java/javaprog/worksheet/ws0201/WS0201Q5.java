@@ -21,8 +21,8 @@ class WS0201Q5 {
 
   static class Lec04A {
     public static void main(String[] args) {
-      Keyboard keybord = new Keyboard();
-      int n = keybord.getNum();
+      Keyboard keyboard = new Keyboard();
+      int n = keyboard.getNum();
 
       Printer printer = new Printer();
       printer.square(n);
