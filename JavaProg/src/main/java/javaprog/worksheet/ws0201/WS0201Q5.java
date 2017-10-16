@@ -8,6 +8,7 @@ class WS0201Q5 {
     int getNum() {
       Scanner key = new Scanner(System.in);
       int n = key.nextInt();
+      key.close();
       return n;
     }
   }
