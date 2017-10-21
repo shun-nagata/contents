@@ -1,8 +1,8 @@
 package javaprog.class_design.lv7;
 
-public class Lv7Q01 {
+class Lv7Q01 {
 
-  static class Player {
+  public class Player {
 
     private String name;
     private int vote;
@@ -11,13 +11,13 @@ public class Lv7Q01 {
       // 略
     }
 
-    public void incrementVote() {
+    protected void addVote() {
       // 略
     }
 
   }
 
-  static class Villager extends Player {
+  public class Villager extends Player {
 
     public Villager(String name) {
       super(name);

@@ -9,14 +9,13 @@ skinparam shadowing false
 
 hide circle
 
-class Player {
--name : String
--vote : int
-+Player(name : String)
-#addVote() : void
+interface Player {
++poll(player : Player) : void
 }
 
-class Villager extends Player {
+class Villager implements Player {
+-name : String
+#vote : int
 +Villager(name : String)
 +poll(player : Player) : void
 }
