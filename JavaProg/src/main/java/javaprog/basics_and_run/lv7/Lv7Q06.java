@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 整数を8回入力し、偶数と奇数に分けて表示する
  */
-public class Lv7Q06 {
+class Lv7Q06 {
 
   public static void main(String[] args) {
     int size = 8;

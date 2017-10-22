@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 正の整数を入力し続け、それれまでの合計を表示する（ただし負の値を入れると終了する）
  */
-public class Lv7Q03 {
+class Lv7Q03 {
 
   public static void main(String[] args) {
     Scanner keyInput = new Scanner(System.in);

@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 入力された文字が10より大きいか小さいかを表示する
  */
-public class Lv6Q08 {
+class Lv6Q08 {
 
   public static void main(String[] args) {
     Scanner keyInput = new Scanner(System.in);

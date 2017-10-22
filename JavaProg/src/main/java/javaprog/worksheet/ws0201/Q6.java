@@ -1,8 +1,8 @@
 package javaprog.worksheet.ws0201;
 
-import javaprog.worksheet.ws0201.WS0201Q5.Keyboard;
+import javaprog.worksheet.ws0201.Q5.Keyboard;
 
-class WS0201Q6 {
+class Q6 {
 
   static class Lec04B {
     public static void main(String[] args) {

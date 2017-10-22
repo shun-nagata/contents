@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 各国お金換算
  */
-public class Lv7Q10 {
+class Lv7Q10 {
 
   public static void main(String[] args) {
     String[] countries = {"US", "EUR", "ARS"};

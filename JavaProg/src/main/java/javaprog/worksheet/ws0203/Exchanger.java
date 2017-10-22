@@ -1,9 +1,9 @@
-package javaprog.worksheet.lec06;
+package javaprog.worksheet.ws0203;
 
-class YenExchanger {
+class Exchanger {
   Rate[] rates;
 
-  public YenExchanger() {
+  public Exchanger() {
     rates = new Rate[]{
       new Rate("US", 0.0090f, "ドル"),
       new Rate("EUR", 0.0076f, "ユーロ"),

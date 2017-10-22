@@ -3,7 +3,7 @@ package javaprog.basics_and_run.lv5;
 /**
  * ｘ,yが両方とも偶数であれば○を表示する
  */
-public class Lv5Q08 {
+class Lv5Q08 {
 
   public static void main(String[] args) {
     int x = 10;

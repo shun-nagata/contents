@@ -3,7 +3,7 @@ package javaprog.basics_and_run.lv6;
 /**
  * 配列の要素のうち、最も大きい数を表示する
  */
-public class Lv6Q03 {
+class Lv6Q03 {
 
   public static void main(String[] args) {
     int[] x = {13, 88, 9, 30, 3, 14, 42, 53};

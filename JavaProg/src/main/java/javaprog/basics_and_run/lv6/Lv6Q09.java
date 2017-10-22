@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 整数 x と y を入力し、x×1~ｘ×yまでを求める
  */
-public class Lv6Q09 {
+class Lv6Q09 {
 
   public static void main(String[] args) {
     Scanner keyInput = new Scanner(System.in);

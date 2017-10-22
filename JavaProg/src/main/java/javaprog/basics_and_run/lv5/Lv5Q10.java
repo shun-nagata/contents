@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 入力された文字を表示する
  */
-public class Lv5Q10 {
+class Lv5Q10 {
 
   public static void main(String[] args) {
     Scanner keyInput = new Scanner(System.in);

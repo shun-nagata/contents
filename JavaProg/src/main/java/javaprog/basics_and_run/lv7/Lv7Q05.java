@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 整数を入力し続け、それまでの最小値を表示する（ただし負の値を入れると終了する）
  */
-public class Lv7Q05 {
+class Lv7Q05 {
 
   public static void main(String[] args) {
     Scanner keyInput = new Scanner(System.in);

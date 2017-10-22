@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 整数を5回入力し、その合計値を求める
  */
-public class Lv7Q01 {
+class Lv7Q01 {
 
   public static void main(String[] args) {
     int counter = 5;

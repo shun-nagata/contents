@@ -1,4 +1,4 @@
-package javaprog.worksheet.lec02;
+package javaprog.worksheet.ws0102;
 
 class Lec02B {
 

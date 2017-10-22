@@ -1,6 +1,6 @@
 package javaprog.basics_and_run.lv3;
 
-public class Lv3Q08 {
+class Lv3Q08 {
 
   public static void main(String[] args) {
     long x = 128L;

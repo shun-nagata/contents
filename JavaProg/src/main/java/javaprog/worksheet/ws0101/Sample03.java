@@ -1,4 +1,4 @@
-package javaprog.worksheet.lec01;
+package javaprog.worksheet.ws0101;
 
 class Sample03 {
 

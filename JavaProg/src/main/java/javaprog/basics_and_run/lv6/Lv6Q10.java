@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 整数 x と y を入力し、縦をx、横をyとして*でできた四角形を表示する
  */
-public class Lv6Q10 {
+class Lv6Q10 {
 
   public static void main(String[] args) {
     Scanner keyInput = new Scanner(System.in);

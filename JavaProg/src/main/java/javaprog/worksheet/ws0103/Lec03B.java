@@ -1,6 +1,4 @@
-package javaprog.worksheet.lec03;
-
-import java.util.Random;
+package javaprog.worksheet.ws0103;
 
 public class Lec03B {
 

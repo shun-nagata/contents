@@ -2,7 +2,7 @@ package javaprog.worksheet.ws0201;
 
 import java.util.Scanner;
 
-class WS0201Q5 {
+class Q5 {
 
   static class Keyboard {
     int getNum() {

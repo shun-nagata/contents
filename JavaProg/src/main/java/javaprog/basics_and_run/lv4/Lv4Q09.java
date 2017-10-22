@@ -3,7 +3,7 @@ package javaprog.basics_and_run.lv4;
 /**
  * 演算子の優先順位
  */
-public class Lv4Q09 {
+class Lv4Q09 {
 
   public static void main(String[] args) {
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 整数 max を入力し、最大幅を底辺とした逆三角形を * で描く
  */
-public class Lv7Q08 {
+class Lv7Q08 {
 
   public static void main(String[] args) {
     Scanner keyInput = new Scanner(System.in);

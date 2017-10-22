@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * 少数を5回入力し、その平均値を求める
  */
-public class Lv7Q02 {
+class Lv7Q02 {
 
   public static void main(String[] args) {
     int counter = 5;

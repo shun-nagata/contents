@@ -1,4 +1,4 @@
-package javaprog.worksheet.lec03;
+package javaprog.worksheet.ws0103;
 
 import java.util.Random;
 

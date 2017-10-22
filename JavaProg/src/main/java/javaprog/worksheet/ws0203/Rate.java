@@ -1,4 +1,4 @@
-package javaprog.worksheet.lec06;
+package javaprog.worksheet.ws0203;
 
 class Rate {
   String country;
