@@ -34,14 +34,16 @@ public class Q3 {
       r1.country = "US";
       r1.value = 0.0090f;
       r1.unit = "ドル";
+      String m1 = r1.exchange(n);
 
       Rate r2 = new Rate();
       r2.country = "ARS";
       r2.value = 0.1586f;
       r2.unit = "ペソ";
+      String m2 = r2.exchange(n);
 
-      System.out.println(r1.exchange(n));
-      System.out.println(r2.exchange(n));
+      System.out.println(m1);
+      System.out.println(m2);
     }
   }
 
