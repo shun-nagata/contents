@@ -1,6 +1,6 @@
-package javaprog.class_design.lv7;
+package javaprog.worksheet;
 
-public class Lv7Q8 {
+public class SubClass {
 
   public class Player {
     protected String name;
@@ -31,7 +31,7 @@ public class Lv7Q8 {
     Villager p2 = new Villager("Chitose");
     Wolf p3 = new Wolf("Hikari");
     p1.bite(p2);
-    p3.bite(p1);
+    p3.bite(p2);
   }
 
 }

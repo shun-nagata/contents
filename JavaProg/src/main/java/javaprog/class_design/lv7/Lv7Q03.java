@@ -1,6 +1,6 @@
 package javaprog.class_design.lv7;
 
-class Lv7Q02 {
+class Lv7Q03 {
 
   public interface Player {
     public void poll(Player player);

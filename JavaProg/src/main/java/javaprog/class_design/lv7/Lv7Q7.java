@@ -1,48 +1,44 @@
 package javaprog.class_design.lv7;
 
-public class Lv7Q7 {
+class Lv7Q7 {
 
-  public interface Player {
-    public String getName();
+  public static class Player {
+
+    protected String role;
+
+    public void say() {
+      System.out.println("私は" + role + "です");
+    }
+
   }
 
-  public class Villager implements Player {
-    private String name;
+  public static class Villager extends Player {
 
-    public Villager(String name) {
-      this.name = name;
+    public Villager() {
+      this.role = "村人";
     }
 
-    @Override
-    public String getName() {
-      return name;
-    }
   }
 
-  public class Wolf implements Player {
-    private String name;
+  public static class Wolf extends Player {
 
-    public Wolf(String name) {
-      this.name = name;
+    public Wolf() {
+      this.role = "狼";
     }
 
-    @Override
-    public String getName() {
-      return name;
-    }
-
-    public void bite(Player player) {
-      System.out.println(name + "が"
-        + player.getName() + "を噛みました");
-    }
   }
 
-  public void atNight() {
-    Wolf p1 = new Wolf("Hikari");
-    Villager p2 = new Villager("Chitose");
-    Wolf p3 = new Wolf("Yuri");
-    p1.bite(p2);
-    p3.bite(p1);
+  public static class App {
+    public static void main(String[] args) {
+      Player p = new Wolf();
+      p.say();
+
+      p = new Villager();
+      p.say();
+
+      p = new Wolf();
+      p.say();
+    }
   }
 
 }
