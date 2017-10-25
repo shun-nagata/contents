@@ -9,12 +9,11 @@ skinparam shadowing false
 
 hide circle
 
-class Item1
+interface Item1
 class Item2
-interface Item3
-class Item4
+class Item3
 
-Item1 <|-- Item2
+Item1 <|.. Item2
 
-Item3 <|.. Item4
+Item2 <|-r- Item3
 @enduml

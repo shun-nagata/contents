@@ -1,9 +1,9 @@
-package javaprog.class_design.lv7;
+package javaprog.worksheet;
 
 import javaprog.worksheet.SubClass;
 import org.junit.Test;
 
-public class Lv7Q8Test {
+public class SubClassTest {
   @Test
   public void atNight() throws Exception {
     new SubClass().atNight();

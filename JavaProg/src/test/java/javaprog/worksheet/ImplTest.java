@@ -1,9 +1,9 @@
-package javaprog.class_design.lv7;
+package javaprog.worksheet;
 
 import javaprog.worksheet.Impl;
 import org.junit.Test;
 
-public class Lv7Q7Test {
+public class ImplTest {
   @Test
   public void atNight() throws Exception {
     new Impl().atNight();
