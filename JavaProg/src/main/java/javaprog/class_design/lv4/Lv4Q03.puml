@@ -1,0 +1,18 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam monochrome true
+skinparam classFontSize 18
+skinparam classFontName Menlo
+skinparam classAttributeFontSize 18
+skinparam classAttributeFontName Menlo
+skinparam shadowing false
+
+hide circle
+
+class Player {
+- name : String
+- vote : int
+  Player(name : String)
+  addVote() : void
+}
+@enduml

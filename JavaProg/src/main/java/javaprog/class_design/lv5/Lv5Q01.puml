@@ -1,0 +1,15 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam monochrome true
+skinparam classFontSize 18
+skinparam classFontName Menlo
+skinparam classAttributeFontSize 18
+skinparam classAttributeFontName Menlo
+skinparam shadowing false
+skinparam arrowFontSize 18
+skinparam arrowFontName Menlo
+hide circle
+
+Club "1" *-r- "3" Member : "   "
+
+@enduml

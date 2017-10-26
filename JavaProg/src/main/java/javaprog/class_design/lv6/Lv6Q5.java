@@ -1,6 +1,6 @@
 package javaprog.class_design.lv6;
 
-public class Lv6Q5 {
+class Lv6Q5 {
 
 	public interface Item1 {
 		public void say();

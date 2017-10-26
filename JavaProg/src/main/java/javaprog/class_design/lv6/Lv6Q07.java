@@ -1,6 +1,6 @@
 package javaprog.class_design.lv6;
 
-public class Lv6Q07 {
+class Lv6Q07 {
 
 	public static class Item1 {
 		protected String name;
