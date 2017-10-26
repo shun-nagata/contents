@@ -9,8 +9,9 @@ skinparam shadowing false
 
 hide circle
 
-class Gakuseki {
-bangou : String
-setBangou(bangou : String) : boolean
+class クラス名 {
+フィールド
+__
+コンストラクタやメソッド
 }
 @enduml

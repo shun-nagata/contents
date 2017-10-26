@@ -9,11 +9,8 @@ skinparam shadowing false
 
 hide circle
 
-class Player {
-- name : String
-- vote : int
-+ Player(name : String)
-+ addVote() : void
+class Gakuseki {
+bangou : [ 1 ]
+setBangou([ 2 ] : [ 3 ]) : [ 4 ]
 }
-
 @enduml
