@@ -19,7 +19,6 @@ class Gakuseki {
 
   boolean setBangou(String bangou) {
    // 処理は省略...
-    return true;
   }
 
 }
@@ -80,7 +79,6 @@ class Gakuseki {
 
   boolean setBangou(String bangou) {
    // 処理は省略...
-    return true;
   }
 
 }
@@ -142,7 +140,6 @@ class [ 1 ] {
 
   boolean [ 3 ] (String bangou) {
    // 処理は省略...
-    return true;
   }
 
 }
@@ -203,7 +200,6 @@ class Gakuseki {
 
   [ 2 ] setBangou([ 3 ] [ 4 ]) {
    // 処理は省略...
-    return true;
   }
 
 }
