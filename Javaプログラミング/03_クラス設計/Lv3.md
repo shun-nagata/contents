@@ -242,9 +242,6 @@ public は、クラス外部全てに公開される。
 
 - フィールド変数 item1 はクラス内部にのみ公開する
 - フィールド変数 item2 はサブクラス内部まで公開する
-- コンストラクタはクラスの外部全てに公開する
-- メソッド do1 はクラス内部にのみ公開する
-- メソッド do2 はクラスの外部全てに公開する
 
 ```java
 public class Capsule {
@@ -252,15 +249,15 @@ public class Capsule {
   [  1  ] String item1;
   [  2  ] int item2;
 
-  [  3  ] Capsule(String item1, int item2) {
+  public Capsule(String item1, int item2) {
     // 処理は省略
   }
 
-  [  4  ] void do1() {
+  protected void do1() {
     // 処理は省略
   }
 
-  [  5  ] void do2() {
+  void do2() {
     // 処理は省略
   }
 
@@ -296,37 +293,32 @@ public は、クラス外部全てに公開される。
 
 1. private
 2. protected
-3. public
-4. private
-5. public
-
 
 ## Q6
 
 以下の指示に従い、下のクラスをカプセル化しなさい。
 
-- フィールド変数 item1 は同じパッケージ内まで公開する
-- フィールド変数 item2 は同じパッケージ内まで公開する
-- コンストラクタ はクラス内部のみに公開する
-- メソッド do1 はクラス内部のみに公開する
-- メソッド do2 はクラス内部のみに公開する
+- コンストラクタ はクラス外部まで公開する
+- メソッド do1 はサブクラス内部まで公開する
+- メソッド do2 はパッケージ内までに公開する
+
 
 
 ```java
 public class Capsule {
 
-  [  1  ] String item1;
-  [  2  ] int item2;
+  private String item1;
+  private int item2;
 
-  [  3  ] Capsule(String item1, int item2) {
+  [  1  ] Capsule(String item1, int item2) {
     // 処理は省略
   }
 
-  [  4  ] void do1() {
+  [  2  ] void do1() {
     // 処理は省略
   }
 
-  [  5  ] void do2() {
+  [  3  ] void do2() {
     // 処理は省略
   }
 
@@ -360,11 +352,9 @@ public は、クラス外部全てに公開される。
 
 答え
 
-1. (記載なし)
-2. (記載なし)
-3. private
-4. private
-5. private
+1. public
+2. protected
+3. (記載なし)
 
 ## Q7
 
@@ -372,25 +362,22 @@ public は、クラス外部全てに公開される。
 
 - フィールド変数 item1 は [ 1 ] 公開する
 - フィールド変数 item2 は [ 2 ] 公開する
-- コンストラクタ は [ 3 ] 公開する
-- メソッド do1 は [ 4 ] 公開する
-- メソッド do2 は [ 5 ] 公開する
 
 ```java
 public class Capsule {
 
   private String item1;
-  private int item2;
+  protected int item2;
 
   public Capsule(String item1, int item2) {
     // 処理は省略
   }
 
-  public void do1() {
+  protected void do1() {
     // 処理は省略
   }
 
-  public void do2() {
+  void do2() {
     // 処理は省略
   }
 
@@ -425,20 +412,36 @@ public は、クラス外部全てに公開される。
 答え
 
 1. クラス内部のみに
-2. クラス内部のみに
-3. クラス外部全てに
-4. クラス外部全てに
-5. クラス外部全てに
+2. サブクラス内部まで
 
 ## Q8
 
 以下のプログラムのカプセル化の状況を答えなさい。
 
-- フィールド変数 item1 は [ 1 ] 公開する
-- フィールド変数 item2 は [ 2 ] 公開する
-- コンストラクタ は [ 3 ] 公開する
-- メソッド do1 は [ 4 ] 公開する
-- メソッド do2 は [ 5 ] 公開する
+- コンストラクタ は [ 1 ] 公開する
+- メソッド do1 は [ 2 ] 公開する
+- メソッド do2 は [ 3 ] 公開する
+
+```java
+public class Capsule {
+
+  private String item1;
+  private int item2;
+
+  public Capsule(String item1, int item2) {
+    // 処理は省略
+  }
+
+  protected void do1() {
+    // 処理は省略
+  }
+
+  void do2() {
+    // 処理は省略
+  }
+
+}
+```
 
 ### 選択肢
 
@@ -446,8 +449,97 @@ public は、クラス外部全てに公開される。
 
 - クラス内部のみに
 - サブクラス内部まで
-- パッケージ内まで
+- 同じパッケージ内まで
 - クラス外部全てに
+
+### ヒント1
+
+カプセル化は、アクセス修飾子を使って行う。
+
+アクセス修飾子の記載がないものは、同じパッケージ内まで公開される。
+
+### ヒント2
+
+protected は、サブクラス内部まで公開される。
+
+### ヒント3
+
+private は、クラス内部まで公開される。
+
+public は、クラス外部全てに公開される。
+
+答え
+
+1. クラス外部全てに
+2. サブクラス内部まで
+3. 同じパッケージ内まで
+
+## Q9
+
+以下のプログラムのカプセル化の状況を答えなさい。
+
+- フィールド変数 item1 は [ 1 ] 公開する
+- フィールド変数 item2 は [ 2 ] 公開する
+
+
+```java
+public class Capsule {
+
+  protected String item1;
+  protected int item2;
+
+  Capsule(String item1, int item2) {
+    // 処理は省略
+  }
+
+  void do1() {
+    // 処理は省略
+  }
+
+  private void do2() {
+    // 処理は省略
+  }
+
+}
+```
+
+### 選択肢
+
+#### 全て
+
+- クラス内部のみに
+- サブクラス内部まで
+- 同じパッケージ内まで
+- クラス外部全てに
+
+### ヒント1
+
+カプセル化は、アクセス修飾子を使って行う。
+
+アクセス修飾子の記載がないものは、同じパッケージ内まで公開される。
+
+### ヒント2
+
+private は、クラス内部まで公開される。
+
+### ヒント3
+
+protected は、サブクラス内部まで公開される。
+
+public は、クラス外部全てに公開される。
+
+答え
+
+1. サブクラス内部まで
+2. サブクラス内部まで
+
+## Q10
+
+以下のプログラムのカプセル化の状況を答えなさい。
+
+- コンストラクタ は [ 1 ] 公開する
+- メソッド do1 は [ 2 ] 公開する
+- メソッド do2 は [ 3 ] 公開する
 
 ```java
 public class Capsule {
@@ -497,9 +589,6 @@ public は、クラス外部全てに公開される。
 
 答え
 
-1. サブクラス内部まで
-2. サブクラス内部まで
-3. 同じパッケージ内まで
-4. 同じパッケージ内まで
-5. クラス内部のみに
-
+1. 同じパッケージ内まで
+2. 同じパッケージ内まで
+3. クラス内部のみに
