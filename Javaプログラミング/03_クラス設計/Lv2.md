@@ -18,9 +18,9 @@
 
 #### すべて
 
-- public を宣言する
-- private を宣言する
-- protected を宣言する
+- public 修飾子を宣言する
+- private 修飾子を宣言する
+- protected 修飾子を宣言する
 - 修飾子を宣言しない
 
 ### ヒント1
@@ -41,7 +41,7 @@
 
 答え
 
-public を宣言する
+public 修飾子を宣言する
 
 
 ## Q2
@@ -54,9 +54,9 @@ public を宣言する
 
 #### すべて
 
-- public を宣言する
-- private を宣言する
-- protected を宣言する
+- public 修飾子を宣言する
+- private 修飾子を宣言する
+- protected 修飾子を宣言する
 - 修飾子を宣言しない
 
 ### ヒント1
@@ -76,7 +76,7 @@ public を宣言する
 
 答え
 
-private を宣言する
+private 修飾子を宣言する
 
 
 ## Q3
@@ -89,9 +89,9 @@ private を宣言する
 
 #### すべて
 
-- public を宣言する
-- private を宣言する
-- protected を宣言する
+- public 修飾子を宣言する
+- private 修飾子を宣言する
+- protected 修飾子を宣言する
 - 修飾子を宣言しない
 
 ### ヒント1
@@ -111,7 +111,7 @@ private を宣言する
 
 答え
 
-protected を宣言する
+protected 修飾子を宣言する
 
 
 ## Q4
@@ -124,9 +124,9 @@ protected を宣言する
 
 #### すべて
 
-- public を宣言する
-- private を宣言する
-- protected を宣言する
+- public 修飾子を宣言する
+- private 修飾子を宣言する
+- protected 修飾子を宣言する
 - 修飾子を宣言しない
 
 ### ヒント1
