@@ -310,15 +310,15 @@ public class Capsule {
   private String item1;
   private int item2;
 
-  [  3  ] Capsule(String item1, int item2) {
+  [  1  ] Capsule(String item1, int item2) {
     // 処理は省略
   }
 
-  [  4  ] void do1() {
+  [  2  ] void do1() {
     // 処理は省略
   }
 
-  [  5  ] void do2() {
+  [  3  ] void do2() {
     // 処理は省略
   }
 
@@ -352,9 +352,9 @@ public は、クラス外部全てに公開される。
 
 答え
 
-3. public
-4. protected
-5. (記載なし)
+1. public
+2. protected
+3. (記載なし)
 
 ## Q7
 
