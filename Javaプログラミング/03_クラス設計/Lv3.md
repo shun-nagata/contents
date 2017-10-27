@@ -242,9 +242,6 @@ public は、クラス外部全てに公開される。
 
 - フィールド変数 item1 はクラス内部にのみ公開する
 - フィールド変数 item2 はサブクラス内部まで公開する
-- コンストラクタはクラスの外部全てに公開する
-- メソッド do1 はクラス内部にのみ公開する
-- メソッド do2 はクラスの外部全てに公開する
 
 ```java
 public class Capsule {
@@ -252,15 +249,15 @@ public class Capsule {
   [  1  ] String item1;
   [  2  ] int item2;
 
-  [  3  ] Capsule(String item1, int item2) {
+  public Capsule(String item1, int item2) {
     // 処理は省略
   }
 
-  [  4  ] void do1() {
+  protected void do1() {
     // 処理は省略
   }
 
-  [  5  ] void do2() {
+  void do2() {
     // 処理は省略
   }
 
@@ -296,27 +293,22 @@ public は、クラス外部全てに公開される。
 
 1. private
 2. protected
-3. public
-4. private
-5. public
-
 
 ## Q6
 
 以下の指示に従い、下のクラスをカプセル化しなさい。
 
-- フィールド変数 item1 は同じパッケージ内まで公開する
-- フィールド変数 item2 は同じパッケージ内まで公開する
-- コンストラクタ はクラス内部のみに公開する
-- メソッド do1 はクラス内部のみに公開する
-- メソッド do2 はクラス内部のみに公開する
+- コンストラクタ はクラス外部まで公開する
+- メソッド do1 はサブクラス内部まで公開する
+- メソッド do2 はパッケージ内までに公開する
+
 
 
 ```java
 public class Capsule {
 
-  [  1  ] String item1;
-  [  2  ] int item2;
+  private String item1;
+  private int item2;
 
   [  3  ] Capsule(String item1, int item2) {
     // 処理は省略
@@ -360,11 +352,9 @@ public は、クラス外部全てに公開される。
 
 答え
 
-1. (記載なし)
-2. (記載なし)
-3. private
-4. private
-5. private
+3. public
+4. protected
+5. (記載なし)
 
 ## Q7
 
@@ -377,17 +367,17 @@ public は、クラス外部全てに公開される。
 public class Capsule {
 
   private String item1;
-  private int item2;
+  protected int item2;
 
   public Capsule(String item1, int item2) {
     // 処理は省略
   }
 
-  public void do1() {
+  protected void do1() {
     // 処理は省略
   }
 
-  public void do2() {
+  void do2() {
     // 処理は省略
   }
 
@@ -422,7 +412,7 @@ public は、クラス外部全てに公開される。
 答え
 
 1. クラス内部のみに
-2. クラス内部のみに
+2. サブクラス内部まで
 
 ## Q8
 
@@ -442,11 +432,11 @@ public class Capsule {
     // 処理は省略
   }
 
-  public void do1() {
+  protected void do1() {
     // 処理は省略
   }
 
-  public void do2() {
+  void do2() {
     // 処理は省略
   }
 
@@ -481,8 +471,8 @@ public は、クラス外部全てに公開される。
 答え
 
 1. クラス外部全てに
-2. クラス外部全てに
-3. クラス外部全てに
+2. サブクラス内部まで
+3. 同じパッケージ内まで
 
 ## Q9
 
