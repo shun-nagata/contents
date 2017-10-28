@@ -281,16 +281,19 @@ public class Villager [  2  ] Player {
 
 ### 選択肢
 
-#### 1〜7すべて
+#### 1〜2
+
+- implements
+- extends
+- interface
+- Override
+
+#### 3〜7すべて
 
 - \+
 - \-
 - \~
 - \#
-- implements
-- extends
-- interface
-- Override
 
 ### ヒント1
 
