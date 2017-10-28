@@ -86,7 +86,6 @@ BクラスがAクラスを継承したサブクラスのとき、class B extends
 3. protected
 4. Villager
 5. extends
-5. extends
 6. Player
 
 ## Q2
