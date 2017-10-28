@@ -281,16 +281,19 @@ public class Villager [  2  ] Player {
 
 ### 選択肢
 
-#### 1〜7すべて
+#### 1〜2
 
-- private
-- public
-- protected
-- extends
 - implements
-- Player
-- Villager
+- extends
+- interface
 - Override
+
+#### 3〜7すべて
+
+- \+
+- \-
+- \~
+- \#
 
 ### ヒント1
 
@@ -381,101 +384,7 @@ public class App {
 - @Override
 - implements
 - extends
-- get()
-- interface
-
-
-### ヒント1
-
-BクラスがAインターフェースを実装しているとき、class B implements A と書く。
-
-### ヒント2
-
-インターフェースは、クラスに必要なメソッドを宣言できるものである。
-
-インターフェースで宣言されたメソッドは、実装クラスにも作る必要がある。
-これをオーバーライドという。
-
-他の開発者が分かりやすいように、オーバーライドしたメソッドには、
-@Overrideという符号（アノテーション）をつける。
-
-### ヒント3
-
-実装クラスのインスタンスは、インターフェース型の変数から参照できる（is-a関係）。
-これにより、同じ変数で異なる実装クラスのインスタンスを取り扱うこともできる。
-
-例えば、BクラスとCクラスがAインターフェースを実装しているとき、
-A型の変数はB, Cどちらのインスタンスも参照できる。
-
-答え
-
-1. implements
-2. @Override
-3. say()
-4. implements
-5. @Override
-6. say()
-7. Player
-
-## Q5
-
-mainメソッドを実行すると、実行結果のとおりとなるように、プログラムの空欄を埋めよ。
-
-```java
-public interface Player {
-  public void say();
-}
-
-public class Villager [  1  ] Player {
-
-  [  2  ]
-  public void [  3  ] {
-    System.out.println("私は村人です");
-  }
-
-}
-
-public class Wolf [  4  ] Player {
-
-  [  5  ]
-  public void [  6  ] {
-    System.out.println("私は狼です");
-  }
-}
-
-public class App {
-  public static void main(String[] args) {
-    [  7  ] p = new Wolf();
-    p.say();
-
-    p = new Villager();
-    p.say();
-
-    p = new Wolf();
-    p.say();
-  }
-}
-```
-
-```
-（実行結果）
-私は狼です
-私は村人です
-私は狼です
-```
-
-
-### 選択肢
-
-#### 1〜7すべて
-
-- Player
-- Villager
-- Wolf
-- @Override
-- implements
-- extends
-- get()
+- say()
 - interface
 
 
@@ -559,13 +468,13 @@ public class App {
 
 #### 1〜7すべて
 
-- Player
-- Villager
-- Wolf
+- Player()
+- Villager()
+- Wolf()
 - class
 - implements
 - extends
-- get()
+- say()
 - interface
 
 ### ヒント1
@@ -597,9 +506,9 @@ A型の変数はB, Cどちらのインスタンスも参照できる。
 2. Wolf()
 3. say()
 4．Villager()
-5. say();
+5. say()
 6. Wolf()
-7. say();
+7. say()
 
 
 
